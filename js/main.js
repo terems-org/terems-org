@@ -7,8 +7,7 @@ bkgAudio.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
 }, false);
-// TODO uncomment:
-//bkgAudio.play();
+bkgAudio.play();
 
 var webzContainer = $('#webz-container');
 if (webzContainer.length > 0) {
