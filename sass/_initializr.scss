@@ -1,0 +1,383 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: $text-color;
+}
+
+html {
+    font-size: $html-font-size;
+    line-height: $html-line-height;
+}
+
+::-moz-selection {
+    background: $selection-backtround;
+    text-shadow: $selection-text-shadow;
+    @include selection-color();
+}
+::selection {
+    background: $selection-backtround;
+    text-shadow: $selection-text-shadow;
+    @include selection-color();
+}
+
+hr {
+    display: block;
+    height: $hr-height;
+    border: 0;
+    border-top: $hr-height $hr-style;
+    margin: $hr-margin;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: $media-content-vertical-align;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: $textarea-resize;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: $browsehappy-background;
+    color: $browsehappy-text-color;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: $body-font;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+//    border-bottom: $ui-header-border;
+//    border-bottom: $ui-header-border-transparent;
+    background: $ui-header-background;
+    background: $ui-header-background-transparent;
+}
+.footer-container {
+//    border-top: $ui-footer-border;
+//    border-top: $ui-footer-border-transparent;
+    background: $ui-footer-background;
+    background: $ui-footer-background-transparent;
+}
+.main aside {
+//    border-top: $ui-dialog-border-top;
+//    border-top: $ui-dialog-border-top-transparent;
+    background: $ui-dialog-background;
+    background: $ui-dialog-background-transparent;
+}
+.main a:hover aside {
+    background: $ui-dialog-hover-background;
+    background: $ui-dialog-hover-background-transparent;
+}
+.header-container, .footer-container, .main aside {
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.title {
+    color: $ui-text-color;
+}
+
+.footer-container a {
+    color: $footer-link-color;
+}
+.footer-container a:hover {
+    color: $footer-link-hover-color;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: $nav-link-display;
+    margin-bottom: $nav-link-margin-bottom;
+    padding: $nav-link-padding;
+
+    text-align: $nav-link-text-align;
+    text-decoration: $nav-link-text-decoration;
+    font-weight: $nav-link-font-weight;
+
+    color: $nav-link-color;
+    background: $nav-link-background;
+    background: $nav-link-background-transparent;
+}
+nav a:hover {
+    color: $nav-link-hover-color;
+    background: $nav-link-hover-background;
+    background: $nav-link-hover-background-transparent;
+    text-decoration: $nav-link-hover-text-decoration;
+}
+nav a:visited {
+    @include nav-link-visited-color();
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: $anyscreen-main-padding;
+}
+
+.main article {
+    text-shadow: $article-text-shadow;
+}
+
+.main article h1 {
+    color: $article-title-color;
+    font-size: $article-title-font-size;
+}
+
+.main article, .dialog-wrapper aside, aside.dialog-wrapper {
+    margin: $anyscreen-dialog-top-bottom-margin 0;
+}
+.dialog-wrapper + .dialog-wrapper aside, aside.dialog-wrapper + aside.dialog-wrapper {
+    margin: 0 0 $anyscreen-dialog-top-bottom-margin;
+}
+
+.main aside {
+    color: $dialog-text-color;
+    padding: $dialog-padding;
+}
+
+.footer-container footer {
+    color: $footer-text-color;
+    padding: $footer-padding;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 2rem;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.header-container,
+.main aside {
+    @include box-shadow($anyscreen-box-shadow);
+}
+
+nav a {
+    @include border-radius($anyscreen-nav-link-border-radius);
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+    .main {
+        padding: $min480-main-padding;
+    }
+    .main article, .dialog-wrapper aside, aside.dialog-wrapper {
+        margin: $min480-dialog-top-bottom-margin 0;
+    }
+    .dialog-wrapper + .dialog-wrapper aside, aside.dialog-wrapper + aside.dialog-wrapper {
+        margin: 0 0 $min480-dialog-top-bottom-margin;
+    }
+
+    .header-container,
+    .main aside {
+        @include box-shadow($min480-box-shadow);
+    }
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: $min480-nav-link-float;
+        width: $min480-nav-link-width;
+        margin: $min480-nav-link-margin;
+        padding: $min480-nav-link-padding;
+        margin-bottom: $min480-nav-link-margin-bottom;
+        @include border-radius($min480-nav-link-border-radius);
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main {
+        padding: $min768-main-padding;
+    }
+    .main article, .dialog-wrapper aside, aside.dialog-wrapper {
+        margin: $min768-dialog-top-bottom-margin 0;
+    }
+    .dialog-wrapper + .dialog-wrapper aside, aside.dialog-wrapper + aside.dialog-wrapper {
+        margin: 0 0 $min768-dialog-top-bottom-margin;
+    }
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        @include box-shadow($min768-box-shadow);
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: $min768-dialog-width;
+    }
+    
+    nav a {
+        @include border-radius($min768-nav-link-border-radius);
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: $min768-article-width;
+    }
+
+    .dialogs-container {//.main aside {
+        float: right;
+        width: $min768-dialog-width;
+    }
+}
+
+@media only screen and (min-width: $max-width) {//1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: ($max-width / 10px) * 0.9rem;// $max-width - 10% for margins //102.6rem; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -999.9rem;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 0.1rem;
+    margin: -0.1rem;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 0.1rem;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

@@ -1,0 +1,32 @@
+
+$webz-container-background: $webz-container-bg-color;
+$webz-container-background-transparent: rgba($webz-container-bg-color, $webz-container-opacity);
+
+$ui-background: $ui-bg-color;
+$ui-background-transparent: rgba($ui-bg-color, $ui-opacity);
+
+$ui-header-background: $ui-header-bg-color;
+$ui-header-background-transparent: rgba($ui-header-bg-color, $ui-header-opacity);
+
+$nav-link-background: $nav-link-bg-color;
+$nav-link-background-transparent: rgba($nav-link-bg-color, $nav-link-opacity);
+
+$nav-link-hover-background: $nav-link-hover-bg-color;
+$nav-link-hover-background-transparent: rgba($nav-link-hover-bg-color, $nav-link-hover-opacity);
+
+$ui-footer-background: $ui-footer-bg-color;
+$ui-footer-background-transparent: rgba($ui-footer-bg-color, $ui-footer-opacity);
+
+$ui-dialog-background: $ui-dialog-bg-color;
+$ui-dialog-background-transparent: rgba($ui-dialog-bg-color, $ui-dialog-opacity);
+$ui-dialog-hover-background: $ui-dialog-background;
+$ui-dialog-hover-background-transparent: rgba($ui-dialog-bg-color, $ui-dialog-hover-opacity);
+
+$todo-sketch-landscape-background-size: 115%;
+$todo-sketch-portrait-background-size: $todo-sketch-landscape-background-size;
+
+$todo-day-landscape-background-size: 100%;
+$todo-day-portrait-background-size: $todo-day-landscape-background-size;
+
+$todo-night-landscape-background-size: 100%;
+$todo-night-portrait-background-size: $todo-night-landscape-background-size;

@@ -1,0 +1,16 @@
+a.link-almost-opaque, .link-almost-opaque a {
+  @include opacity($link-high-opacity);
+}
+a.link-medium-opacity, .link-medium-opacity a {
+  @include opacity($link-medium-opacity);
+}
+a.link-low-opacity, .link-low-opacity a {
+  @include opacity($link-low-opacity);
+}
+
+a {
+  @include opacity($link-opacity);
+}
+a:hover {
+  @include opacity($link-hover-opacity);
+}

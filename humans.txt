@@ -1,0 +1,37 @@
+﻿#######
+
+ Ваше настроение - это Душа,
+ тогда как Разум - это всего лишь средство связи Вашего настроения (тоесть Души)
+ с тем проявлением Вашей Реальности, которое вы выбираете... ;)
+
+ собрать веб-сайт из существующих веб-впечатлений...
+ разработчикам: создать новое веб-впечатление...
+ открыть органайзер...
+
+#######
+
+ Based on http://www.initializr.com/
+
+...specifically http://www.initializr.com/builder?print&izr-responsive&h5bp-iecond&h5bp-chromeframe&h5bp-analytics&h5bp-favicon&h5bp-appletouchicons&h5bp-scripts&h5bp-robots&h5bp-humans&h5bp-404&jquery&modernizrrespond&h5bp-css&h5bp-csshelpers&h5bp-mediaqueryprint
+
+ https://github.com/verekia
+
+#######
+
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+
+#######

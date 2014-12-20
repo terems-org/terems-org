@@ -1,0 +1,140 @@
+
+$html-line-height: 1.4;
+$body-font: 1.6rem/2.6rem Helvetica, Helvetica Neue, Arial;
+
+
+$ui-bg-color: #505428;
+$ui-text-color: white;
+
+$webz-container-bg-color: white;
+
+$text-color: black;
+
+
+
+// UI opacities & backgrounds
+
+$webz-container-opacity: 0.65;
+
+$ui-opacity: 0.85;
+
+$nav-link-opacity: 0.5;
+$nav-link-hover-opacity: 0.9; //$nav-link-opacity;
+
+$footer-height: 7.7rem;
+
+$ui-header-bg-color: $ui-bg-color;
+$ui-header-opacity: $ui-opacity;
+$ui-footer-bg-color: $ui-bg-color;
+$ui-footer-opacity: $ui-opacity;
+
+$ui-dialog-bg-color: $ui-bg-color;
+$ui-dialog-opacity: 0.55; //$ui-opacity;
+$ui-dialog-hover-opacity: 0.75; //$ui-dialog-hover-opacity;
+
+
+
+// webz-styling
+
+$link-color: darken(brown, 10%);
+$link-hover-color: darken(brown, 19%);
+@mixin link-visited-color() {
+  //color: initial;
+}
+
+$footer-link-color: $ui-text-color;
+$footer-link-hover-color: $footer-link-color;
+$footer-text-color: $ui-text-color;
+$footer-padding: 0.8rem 0 0.5rem;
+
+$link-text-decoration: none;
+$link-hover-text-decoration: underline; // TODO -webz--link-hover-text-decoration; // elaborate this
+
+
+
+$nav-link-margin-bottom: 1rem;
+$nav-link-padding: 1.5rem 0;
+$nav-link-text-align: center;
+$nav-link-text-decoration: none;
+$nav-link-font-weight: bold;
+$nav-link-display: block;
+
+$nav-link-bg-color: $ui-bg-color;
+$nav-link-color: $ui-text-color;
+
+$nav-link-hover-bg-color: $nav-link-bg-color;
+$nav-link-hover-color: $nav-link-color;
+
+$nav-link-hover-text-decoration: $nav-link-text-decoration;
+@mixin nav-link-visited-color() {
+  //color: initial;
+}
+
+
+
+// transparent-links
+
+$link-opacity: 1;
+$link-hover-opacity: 1;
+
+$link-high-opacity: 0.75;
+$link-medium-opacity: 0.5;
+$link-low-opacity: 0.25;
+
+
+$hr-style: solid #ccc;
+$hr-height: 0.1rem;
+$hr-margin: 1em 0;
+
+$media-content-vertical-align: middle;
+$textarea-resize: vertical;
+
+$article-title-color: $text-color;
+$article-title-font-size: 2em; // TODO fix too small line-height problem !!!
+
+$article-text-shadow: 0.1rem 0.1rem 0.1rem rgba($ui-bg-color, 0.2);
+
+$dialog-text-color: $ui-text-color;
+$dialog-padding: 1rem 5%;
+
+
+$selection-backtround: #b3d4fc;
+@mixin selection-color() {
+  //color: initial;
+}
+$selection-text-shadow: $article-text-shadow;
+
+
+
+// media queries
+
+$anyscreen-nav-link-border-radius: 2rem;
+$anyscreen-box-shadow: none;
+$anyscreen-dialog-top-bottom-margin: 3rem;
+$anyscreen-main-padding: 0;
+
+$min480-nav-link-border-radius: 0;
+$min480-box-shadow: 0 0.5rem 1rem #888;
+$min480-dialog-top-bottom-margin: $anyscreen-dialog-top-bottom-margin;
+$min480-main-padding: $anyscreen-main-padding;
+$min480-nav-link-float: left;
+$min480-nav-link-width: 27%;
+$min480-nav-link-margin: 0 1.7%;
+$min480-nav-link-margin-bottom: 0;
+$min480-nav-link-padding: 2.5rem 2%;
+
+$min768-nav-link-border-radius: $min480-nav-link-border-radius;
+$min768-box-shadow: $min480-box-shadow;
+$min768-dialog-top-bottom-margin: $min480-dialog-top-bottom-margin;
+$min768-main-padding: $min480-main-padding;
+$min768-article-width: 56%;
+$min768-dialog-width: 39%;
+
+$max-width: 1140px;
+
+
+
+// browsehappy
+
+$browsehappy-background: #ccc;
+$browsehappy-text-color: #000;
