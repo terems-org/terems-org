@@ -1158,11 +1158,6 @@ html, body {
   height: 100%;
 }
 
-/* line 74, ../sass/_webz-styling.scss */
-body {
-  background-color: #788065;
-}
-
 /* line 77, ../sass/_webz-styling.scss */
 .webz-container {
   min-height: 100%;
