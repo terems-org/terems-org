@@ -51,9 +51,10 @@ a.dialog-wrapper {
   }
 }
 
+$todo-sketch-bg-colorrr: #788065;
 .todo-sketch-bg {
   background-image: url("../images/todo-express-o-matic-sharp-title.jpg");
-  background-color: #788065;//black;
+  background-color: $todo-sketch-bg-colorrr;
 }
 .todo-day-bg {
   background-image: url("../images/23.jpg");
@@ -66,6 +67,9 @@ a.dialog-wrapper {
 
 html, body {
   height: 100%;
+}
+html {
+  background-color: $todo-sketch-bg-colorrr;
 }
 .webz-container {
   min-height: 100%;

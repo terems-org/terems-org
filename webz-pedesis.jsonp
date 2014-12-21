@@ -4,10 +4,11 @@ webzContent({
 	"navLinks": [
 		{"url": "https://www.google.com/", "title": "Google"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
-		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
+		{"url": "https://github.com/teremterem/todo", "title": "GitHub"},
+		//{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
+
 		//{"url": "https://github.com/", "title": "GitHub"},
 		//{"url": "http://shouldiprefix.com/", "title": "Prefixes"},
-		
 		// {"url": "http://caniuse.com/", "title": "CanIUse"},
 		// {"url": "http://rivetsjs.com/docs/reference/", "title": "Rivets.js?"},
 		// {"url": "http://fs.to/", "title": "fs.to"},
@@ -48,8 +49,8 @@ webzContent({
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
-			"url": "mailto:todo@terems.org",//"https://mail.google.com/mail/ca/u/0/#inbox",
-			//"url": "https://mail.google.com/mail/u/1/#inbox",
+			"url": "mailto:todo@terems.org",
+			//"url": "http://mail.terems.org/",//"url": "https://mail.google.com/mail/u/1/#inbox",
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Lingvo</h3>",
 			"url": "http://www.lingvo.ua/ru",
@@ -74,6 +75,7 @@ webzContent({
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
-	"footerLinkUrl": "http://terems.org/",//"http://teremterem.github.io/todo/",//"http://teremterem.github.io/webz-pedesis/",
+	"footerLinkUrl": "http://terems.org/",
+	//"footerLinkUrl": "http://teremterem.github.io/todo/",//"http://teremterem.github.io/webz-pedesis/",
 
 });
