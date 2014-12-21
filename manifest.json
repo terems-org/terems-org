@@ -1,0 +1,12 @@
+{
+	"name": "WebZ Research",
+	"description": "One of WebZ Platform Apps",
+	"version": "0.9",// beta (Pedesis)
+	"manifest_version": 2,
+	"icons": {
+		"128": "128-temp-icon.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}

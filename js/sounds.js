@@ -6,4 +6,4 @@ bkgAudio.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
 }, false);
-bkgAudio.play();
+//bkgAudio.play();
