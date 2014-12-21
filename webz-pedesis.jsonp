@@ -4,7 +4,8 @@ webzContent({
 	"navLinks": [
 		{"url": "https://www.google.com/", "title": "Google"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
-		{"url": "https://github.com/teremterem/todo", "title": "GitHub"},
+		{"url": "https://github.com/teremterem/teremterem.github.io", "title": "GitHub"},
+		//{"url": "https://github.com/teremterem/todo", "title": "GitHub"},
 		//{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
 
 		//{"url": "https://github.com/", "title": "GitHub"},
@@ -45,12 +46,15 @@ webzContent({
 	"dialogButtons": [
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;The Organizer&nbsp;-</p>",
-			"url": "http://www.instructables.com/id/Developing-a-Custom-Newtab-Page-For-Google-Chrome/",//"https://ctc-customs.atlassian.net/browse/ICA-556",//"https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scale",//"http://marzyond-todo.terems.org/",
 			//"class": "orange-todo-panel",
+			"url": "http://www.instructables.com/id/Developing-a-Custom-Newtab-Page-For-Google-Chrome/",
+			//"url": "https://ctc-customs.atlassian.net/browse/ICA-556",
+			//"url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scale",
+			//"url": "http://marzyond-todo.terems.org/",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
 			"url": "mailto:todo@terems.org",
-			//"url": "http://mail.terems.org/",//"url": "https://mail.google.com/mail/u/1/#inbox",
+			//"url": "http://mail.terems.org/",
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Lingvo</h3>",
 			"url": "http://www.lingvo.ua/ru",
@@ -75,7 +79,7 @@ webzContent({
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
-	"footerLinkUrl": "http://terems.org/",
-	//"footerLinkUrl": "http://teremterem.github.io/todo/",//"http://teremterem.github.io/webz-pedesis/",
+	"footerLinkUrl": "http://terems.org/",//"http://todo.terems.org/webz-pedesis.html",//"http://teremterem.github.io/webz-pedesis.html",
+	//"footerLinkUrl": "http://teremterem.github.io/todo/",//"http://teremterem.github.io/webz-pedesis/",//"http://teremterem.github.io/webz-pedesis.html",
 
 });
