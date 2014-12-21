@@ -50,7 +50,8 @@ webzContent({
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;The Organizer&nbsp;-</p>",
 			//"class": "orange-todo-panel",
-			"url": "http://www.instructables.com/id/Developing-a-Custom-Newtab-Page-For-Google-Chrome/",
+			"url": "http://www.webz.bz/obsolete/todo",
+			//"url": "http://www.instructables.com/id/Developing-a-Custom-Newtab-Page-For-Google-Chrome/",
 			//"url": "https://ctc-customs.atlassian.net/browse/ICA-556",
 			//"url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform#scale",
 			//"url": "http://marzyond-todo.terems.org/",
