@@ -1,7 +1,7 @@
 webzContent({
 
-	//"pageTitle": ".: home :.",
-	"pageTitle": ".: New Tab :.",
+	"pageTitle": ".: home :.",
+	//"pageTitle": ".: New Tab :.",
 	"navLinks": [
 		{"url": "https://www.google.com/", "title": "Google"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
@@ -42,9 +42,9 @@ webzContent({
 			"title": "Develop a Custom Web Impression...	",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
 			//"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor.",// Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in.",// In semper consequat est, eu porta velit mollis nec.",
-		},{
-			"title": "CTCO-ISD1...",
-			"titleUrl": "http://marzyond-todo.terems.org/",
+		//},{
+		//	"title": "CTCO-ISD1...",
+		//	"titleUrl": "http://marzyond-todo.terems.org/",
 		},
 	],
 	"dialogButtons": [
@@ -58,8 +58,8 @@ webzContent({
 			//"url": "http://marzyond-todo.terems.org/",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
-			//"url": "mailto:todo@terems.org",
-			"url": "http://mail.terems.org/",
+			"url": "mailto:todo@terems.org",
+			//"url": "http://mail.terems.org/",
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Lingvo</h3>",
 			"url": "http://www.lingvo.ua/ru",
