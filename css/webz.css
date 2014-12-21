@@ -1135,41 +1135,41 @@ a.dialog-wrapper {
     background-size: todo-night-landscape-background-size;
   }
 }
-/* line 55, ../sass/_webz-styling.scss */
+/* line 58, ../sass/_webz-styling.scss */
 .todo-sketch-bg {
   background-image: url("../images/todo-express-o-matic-sharp-title.jpg");
   background-color: #788065;
 }
 
-/* line 59, ../sass/_webz-styling.scss */
+/* line 62, ../sass/_webz-styling.scss */
 .todo-day-bg {
   background-image: url("../images/23.jpg");
   background-color: white;
 }
 
-/* line 63, ../sass/_webz-styling.scss */
+/* line 66, ../sass/_webz-styling.scss */
 .todo-night-bg {
   background-image: url("../images/23b.jpg");
   background-color: black;
 }
 
-/* line 68, ../sass/_webz-styling.scss */
+/* line 71, ../sass/_webz-styling.scss */
 html, body {
   height: 100%;
 }
 
-/* line 71, ../sass/_webz-styling.scss */
-html {
+/* line 74, ../sass/_webz-styling.scss */
+body {
   background-color: #788065;
 }
 
-/* line 74, ../sass/_webz-styling.scss */
+/* line 77, ../sass/_webz-styling.scss */
 .webz-container {
   min-height: 100%;
   height: 100%;
 }
 
-/* line 79, ../sass/_webz-styling.scss */
+/* line 82, ../sass/_webz-styling.scss */
 .webz-header-main-container {
   min-height: 100%;
   height: auto !important;
@@ -1179,7 +1179,7 @@ html {
   background: rgba(255, 255, 255, 0.65);
 }
 
-/* line 87, ../sass/_webz-styling.scss */
+/* line 90, ../sass/_webz-styling.scss */
 .footer-container, .webz-push {
   height: 7.7rem;
 }
