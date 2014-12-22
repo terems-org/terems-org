@@ -5,9 +5,9 @@ webzContent({
 	"navLinks": [
 		{"url": "https://www.google.com/", "title": "Google"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
-		{"url": "https://github.com/teremterem/teremterem.github.io", "title": "GitHub"},
+		//{"url": "https://github.com/teremterem/teremterem.github.io", "title": "GitHub"},
 		//{"url": "https://github.com/teremterem/todo", "title": "GitHub"},
-		//{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
+		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
 
 		//{"url": "https://github.com/", "title": "GitHub"},
 		//{"url": "http://shouldiprefix.com/", "title": "Prefixes"},
