@@ -11,8 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/webz.css">
+        <link rel="stylesheet" href="lib/durandal/css/durandal.css" />
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body style="visibility:hidden">
         <!--[if lt IE 9]>
@@ -81,22 +82,25 @@
 </audio>
 -->
 
-		<script src="js/vendor/jquery-1.11.1.min.js"></script>
-        <!--
+		<script src="lib/jquery-1.11.1.min.js"></script>
+        <!-- TODO: WTF ?! (or maybe it's just for the sake of being installed as a Chrome Extension)
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="lib/jquery-1.11.1.min.js"><\/script>')</script>
         -->
 
-        <script src="js/vendor/rivets.bundled.min.js"></script>
-
-        <script src="js/plugins.js"></script>
+        <script src="lib/rivets.bundled.min.js"></script>
 
 		<script src="js/webz-content-padding.js"></script>
 		<script src="webz-pedesis.js"></script>
 		<!--
 		<script src="js/main.js"></script>
 		-->
-		<script src="js/vendor/require/require.js" data-main="js/main"></script>
+		<script src="lib/require/require.js" data-main="app/main"></script>
+
+		<!-- TODO: what to do with these ? -->
+        <script src="js/plugins.js"></script>
+		<script src="js/obsolete-main.js"></script>
+
 		<script src="js/sounds.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

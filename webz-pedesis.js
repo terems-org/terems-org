@@ -20,7 +20,10 @@ webzContent({
 	"sections": [
 		{
 			"title": "Durandal (Website)",
-			"titleUrl": "http://durandaljs.com/",
+			"titleUrl": "http://durandaljs.com/get-started.html#navigation",
+			//"titleUrl": "http://durandaljs.com/get-started.html#the-shell",
+			//"titleUrl": "http://durandaljs.com/get-started.html",
+			//"titleUrl": "http://durandaljs.com/",
 			//"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec."
 		},{
 		//	"title": "Custom Newtab Page For Chrome",
@@ -42,9 +45,15 @@ webzContent({
 			"title": "Develop a Custom Web Impression...	",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
 			//"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor.",// Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in.",// In semper consequat est, eu porta velit mollis nec.",
+		//},{
+		//	"title": "CSS: Using Percentages in Background-Image",
+		//	"titleUrl": "http://www.sitepoint.com/css-using-percentages-in-background-image/",
 		},{
 			"title": "CTCO-ISD1...",
 			"titleUrl": "http://marzyond-todo.terems.org/",
+		},{
+			"title": "Паразит (FS)",//- Учение о жизни (FS)",
+			"titleUrl": "http://fs.to/video/cartoonserials/iM7kE790Vcthqa7QmPqJd6-parazit-uchenije-o-zhizni.html",
 		},
 	],
 	"dialogButtons": [
@@ -69,9 +78,9 @@ webzContent({
 		},{
 			"text": "<p style='width:100%;text-align:center'>UX</p>",
 			"url": "https://www.youtube.com/results?search_query=ux+development",
-		//},{
-		//	"text": "<p style='width:100%;text-align:center'>FS.TO</p>",
-		//	"url": "http://fs.to/",
+		},{
+			"text": "<p style='width:100%;text-align:center'>FS.TO</p>",
+			"url": "http://fs.to/",
 		//},{
 		//	"text": "<hr><h2 style='width:100%;text-align:center'>Dropbox</h2><hr>",
 		//	"url": "https://www.dropbox.com/home",
@@ -88,3 +97,15 @@ webzContent({
 	//"footerLinkUrl": "http://teremterem.github.io/",
 
 });
+
+// https://www.youtube.com/watch?v=J4TdHvixBTI
+// https://www.youtube.com/watch?v=pqKb1OGpDjo
+// https://www.youtube.com/watch?v=JCLi6vSIuPE
+
+
+// 22950
+
+// http://instantsprite.com/
+
+// http://www.blog.highub.com/javascript/javascript-library/preload-iframe-using-javascript/
+
