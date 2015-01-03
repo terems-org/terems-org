@@ -23,7 +23,7 @@ webzContent({
 
 		"While doing a \"Research\" with Todo a user will be able to pin articles, make conclusions under pins, they will also "+
 		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
-		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in more detailed manner...",
+		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...",
 
 	"sections": [
 		{
