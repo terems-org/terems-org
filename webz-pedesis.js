@@ -16,14 +16,14 @@ webzContent({
 		"<b>Todo (The Organizer)</b> is supposed to be an exemplary Offline Web App developed as part of this suite "+
 		"in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
 
-		"One part of Todo would exist in a form of an extension to Google Chrome (probably other browsers to be supported "+
+		"One part of Todo would exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
 		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app. Another part "+
 		"of it would be hosted at <a href='http://todo.terems.org/'>todo.terems.org</a> and having richer UI would expose "+
 		"more power to edit the content a user would pin/create in Todo.<br>"+
 
-		"While doing a \"Research\" with Todo a user will probably be able to pin articles, make conclusions under pins, "+
-		"see a button-like list of \"sources\" that articles pinned to the current \"Research\" come from "+
-		"(StackOverflow, YouTube etc). The concept will be refined further during the implementation...",
+		"While doing a \"Research\" with Todo a user will be able to pin articles, make conclusions under pins, they will also "+
+		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
+		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in more detailed manner...",
 
 	"sections": [
 		{
