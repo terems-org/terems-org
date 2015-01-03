@@ -10,18 +10,22 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/webz.css">
+		<!-- Pinterest -->
+        <meta name="p:domain_verify" content="f3f618c9b65a97f6d1c8c6c434ef9ce9"/>
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/webz.css">
+        <link rel="stylesheet" href="lib/durandal/css/durandal.css" />
+
+        <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body style="visibility:hidden">
         <!--[if lt IE 9]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+
         <div class="todo-sketch-bg"></div>
 
-		<div id="webz-container" class="webz-container">
+		<div id="applicationHost" class="webz-container">
 			<div class="webz-header-main-container">
 		        <div class="header-container">
 		            <header class="wrapper clearfix">
@@ -50,7 +54,7 @@
 		                        <p>{webzsection.text}</p>
 		                       	-->
 		                        <p style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold"><a rv-href="webzsection.titleUrl">{webzsection.title}</a></p>
-		                        <p style="margin-top:0;padding-top:0;padding-left:1.2rem">{webzsection.text}</p>
+		                        <p style="margin-top:0;padding-top:0">{webzsection.text}</p>
 		                    </section>
 		                </article>
 
@@ -81,19 +85,27 @@
 </audio>
 -->
 
-		<script src="js/vendor/jquery-1.11.1.min.js"></script>
-        <!--
+		<script src="lib/jquery-1.11.1.min.js"></script>
+        <!-- TODO: WTF ?! (or maybe it's just for the sake of being installed as a Chrome Extension)
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="lib/jquery-1.11.1.min.js"><\/script>')</script>
         -->
 
-        <script src="js/vendor/rivets.bundled.min.js"></script>
-
-        <script src="js/plugins.js"></script>
+        <script src="lib/rivets.bundled.min.js"></script>
 
 		<script src="js/webz-content-padding.js"></script>
 		<script src="webz-pedesis.js"></script>
+		<!--
 		<script src="js/main.js"></script>
+		-->
+		<!-- TODO do it as a chrome extension!
+		<script src="lib/require/require.js" data-main="app/main"></script>
+		-->
+
+		<!-- TODO: what to do with these ? -->
+        <script src="js/plugins.js"></script>
+		<script src="js/obsolete-main.js"></script>
+
 		<script src="js/sounds.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

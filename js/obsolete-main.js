@@ -1,5 +1,5 @@
 
-var webzContainer = $('#webz-container');
+var webzContainer = $('#applicationHost'); //.webz-container
 if (webzContainer.length > 0) {
 	rivets.bind(webzContainer, {ctx: window.rivetsContext});
 }        	
