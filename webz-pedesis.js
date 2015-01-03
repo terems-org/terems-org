@@ -13,7 +13,7 @@ webzContent({
 
 		"For now let's say that WebZ Platform is going to be some sort of a Web Experience Development Suite...<br>"+
 
-		"<b>Todo (The Organizer)</b> is supposed to be an exemplary Offline Web App developed as part of this suite "+
+		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> is supposed to be an exemplary Offline Web App developed as part of this suite "+
 		"in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
 
 		"One part of Todo would exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
@@ -23,7 +23,10 @@ webzContent({
 
 		"While doing a \"Research\" with Todo a user will be able to pin articles, make conclusions under pins, they will also "+
 		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
-		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...",
+		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...<br>"+
+
+		"One more thing that will demonstrate one of the powers that WebZ Platform will have: Todo's css theme will be "+
+		"customizable to a great degree! Customizations should be allowed on per-user (per-project?) basis...",
 
 	"sections": [
 		{
