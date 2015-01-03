@@ -1,40 +1,74 @@
+			<div class="webz-header-main-container">
+		        <div class="header-container">
+		            <header class="wrapper clearfix">
+		                <h1 class="title">{ctx.webz.pageTitle}</h1>
+		                <nav>
+   <ul data-bind="foreach: router.navigationModel">
+    <li data-bind="css: { active: isActive }">
+     <a data-bind="attr: { href: hash }, html: title"></a>
+    </li>
+   </ul>
+<!--
+		                    <ul>
+		                        <li rv-each-webznavlink="ctx.webz.navLinks">
+		                        	<a rel="nofollow" rv-href="webznavlink.url" rv-html="webznavlink.title"></a>
+		                        </li>
+		                    </ul>
+-->
+		                </nav>
+		            </header>
+		        </div>
+
+		        <div class="main-container">
+		            <div class="main wrapper clearfix">
+
+		                <article>
+		                    <header>
+		                        <h1>{ctx.webz.articleTitle}</h1>
+		                        <p rv-html="ctx.webz.articleHeading"></p>
+		                    </header>
+		                    <section rv-each-webzsection="ctx.webz.sections">
+		                    	<!-- TODO:
+		                        <h2"><a rv-href="webzsection.titleUrl">{webzsection.title}</a></h2>
+		                        <p>{webzsection.text}</p>
+		                       	-->
+		                        <p style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold"><a rv-href="webzsection.titleUrl">{webzsection.title}</a></p>
+		                        <p style="margin-top:0;padding-top:0;padding-left:1.2rem">{webzsection.text}</p>
+		                    </section>
+		                </article>
+
+						<div class="dialogs-container">
+			                <a class="dialog-wrapper" rv-each-webzdialog="ctx.webz.dialogButtons" rv-href="webzdialog.url" rel="nofollow">
+			                	<aside rv-html="webzdialog.text" rv-class="webzdialog.class"></aside>
+			                </a>
+			            </div>
+
+		            </div> <!-- #main -->
+		        </div> <!-- #main-container -->
+		        <div class="webz-push"></div>
+			</div>
+
+	        <div class="footer-container">
+                <!-- http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ -->
+	            <footer class="wrapper">
+	                <h3><a rv-href="ctx.webz.footerLinkUrl">{ctx.webz.footerLinkText}</a></h3>
+	            </footer>
+	        </div>
+
 <!--
 <div>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <i class="fa fa-home"></i>
-                <span>Durandal</span>
-            </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav" data-bind="foreach: router.navigationModel">
-                <li data-bind="css: { active: isActive }">
-                    <a data-bind="attr: { href: hash }, text: title"></a>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li class="loader" data-bind="css: { active: router.isNavigating }">
-                    <i class="fa fa-spinner fa-spin fa-2x"></i>
-                </li>
-            </ul>
-
-            <form class="navbar-form navbar-right" role="search" data-bind="submit:search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-            </form>
-        </div>
-    </nav>
-
-    <div class="page-host" data-bind="router: { transition:'entrance' }"></div>
+ <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+   <ul class="nav" data-bind="foreach: router.navigationModel">
+    <li data-bind="css: { active: isActive }">
+     <a data-bind="attr: { href: hash }, html: title"></a>
+    </li>
+   </ul>
+   <div class="loader pull-right" data-bind="css: { active: router.isNavigating }">
+     <i class="icon-spinner icon-2x icon-spin"></i>
+   </div>
+  </div>
+ </div>
+ <div class="container-fluid page-host" data-bind="router: { transition:'entrance' }"></div>
 </div>
 -->
