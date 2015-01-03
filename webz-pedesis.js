@@ -7,19 +7,23 @@ webzContent({
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
 		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
 	],
+
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
 	"articleHeading":
 
 		"For now let's say that WebZ Platform is going to be some sort of a Web Experience Development Suite...<br>"+
-		"The idea behind the page you are looking at right now is to eventually become a fully-fledged Offline Web App "+
-		"which would be installed as an extension to Google Chrome in order to replace Chrome's default New Tab Page App "+
-		"and play a role of a la \"Research\" Bookmarking App. This app would allow for multiple \"Researches\" "+
-		"to be maintained per a registered user, each \"Research\" in a form of two columns: "+
-		"the first one would be a list of references to external articles and short summaries under those references "+
-		"(these summaries are to be put there by the user of the app to summarize why this particular article is "+
-		"mentioned in the current \"Research\" and which conclusions does it bring the researcher to) and the second one "+
-		"would be a collection of button-like transparent panels mentioning what \"source\" websites (domain names, probably "+
-		"their brandings to be displayed as well) were used (in other words, which \"sources\" the links in the first column come from)...",
+
+		"<b>Todo (The Organizer)</b> is supposed to be an exemplary Offline Web App developed as part of this suite "+
+		"in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
+
+		"One part of Todo would exist in a form of an extension to Google Chrome (probably other browsers to be supported "+
+		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app. Another part "+
+		"of it would be hosted at <a href='http://todo.terems.org/'>todo.terems.org</a> and having richer UI would expose "+
+		"more power to edit the content a user would pin/create in Todo.<br>"+
+
+		"While doing a \"Research\" with Todo a user will probably be able to pin articles, make conclusions under pins, "+
+		"see a button-like list of \"sources\" that articles pinned to the current \"Research\" come from "+
+		"(StackOverflow, YouTube etc). The concept will be refined further during the implementation...",
 
 	"sections": [
 		{
