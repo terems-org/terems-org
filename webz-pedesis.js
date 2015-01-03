@@ -26,7 +26,7 @@ webzContent({
 		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...<br>"+
 
 		"One more thing that will demonstrate one of the powers that WebZ Platform will have: Todo's css theme will be "+
-		"customizable to a great degree! Customizations should be allowed on per-user (per-project?) basis...",
+		"customizable to a great degree! Customizations should be allowed on per-user (or per-project?) basis...",
 
 	"sections": [
 		{
