@@ -13,8 +13,8 @@ webzContent({
 
 		"For now let's say that WebZ Platform is going to be some sort of a Web Experience Development Suite...<br>"+
 
-		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> is supposed to be an exemplary Offline Web App developed as part of this suite "+
-		"in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
+		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> is supposed to be an exemplary Offline Web App "+
+		"developed as part of this suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
 
 		"One part of Todo would exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
 		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app. Another part "+
