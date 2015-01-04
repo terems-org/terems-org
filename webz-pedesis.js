@@ -18,7 +18,7 @@ webzContent({
 
 		"One part of Todo would exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
 		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app. Another part "+
-		"of it would be hosted at <a href='http://todo.terems.org/'>todo.terems.org</a> and having richer UI would expose "+
+		"of it would be hosted at <b><a href='http://todo.terems.org/'>todo.terems.org</a></b> and having richer UI would expose "+
 		"more power to edit the content a user would pin/create in Todo.<br>"+
 
 		"While doing a \"Research\" with Todo a user would be able to pin articles, make conclusions under pins, they would also "+
