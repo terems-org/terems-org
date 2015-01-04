@@ -21,12 +21,12 @@ webzContent({
 		"of it would be hosted at <a href='http://todo.terems.org/'>todo.terems.org</a> and having richer UI would expose "+
 		"more power to edit the content a user would pin/create in Todo.<br>"+
 
-		"While doing a \"Research\" with Todo a user will be able to pin articles, make conclusions under pins, they will also "+
+		"While doing a \"Research\" with Todo a user would be able to pin articles, make conclusions under pins, they would also "+
 		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
 		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...<br>"+
 
-		"One more thing that will demonstrate one of the powers that WebZ Platform will have: Todo's css theme will be "+
-		"customizable to a great degree! Customizations should be allowed on per-user (or per-project?) basis...",
+		"One more thing that should demonstrate one of the powers that WebZ Platform will have: Todo's css theme should be highly "+
+		"and at the same time easily customizable. Customizations should be allowed on per-user (or maybe \"per-project\") basis.",
 
 	"sections": [
 		{
