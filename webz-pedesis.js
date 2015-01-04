@@ -45,10 +45,10 @@ webzContent({
 			"title": "Compose a Website...",
 			"titleUrl": "http://www.webdesign-inspiration.com/",
 		},{
-			"title": "Develop a Custom Web Impression...	",
+			"title": "Develop a Custom Web Impression...",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
 		},{
-			"title": "Instant Sprite...	",
+			"title": "Instant Sprite...",
 			"titleUrl": "http://instantsprite.com/",
 		},
 	],
