@@ -45,11 +45,14 @@ webzContent({
 			"title": "Compose a Website...",
 			"titleUrl": "http://www.webdesign-inspiration.com/",
 		},{
-			"title": "Develop a Custom Web Impression...	",
+			"title": "Develop a Custom Web Impression...",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
 		},{
-			"title": "Instant Sprite...	",
+			"title": "Instant Sprite...",
 			"titleUrl": "http://instantsprite.com/",
+		//},{
+		//	"title": "Паразит (FS)",
+		//	"titleUrl": "http://fs.to/video/cartoonserials/iM7kE790Vcthqa7QmPqJd6-parazit-uchenije-o-zhizni.html",
 		},
 	],
 	"dialogButtons": [
@@ -74,6 +77,9 @@ webzContent({
 		},{
 			"text": "<p style='width:100%;text-align:center'>UX</p>",
 			"url": "https://www.youtube.com/results?lclk=year&search_query=ux+development&filters=year",
+		//},{
+		//	"text": "<p style='width:100%;text-align:center'>FS.TO</p>",
+		//	"url": "http://fs.to/",
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
