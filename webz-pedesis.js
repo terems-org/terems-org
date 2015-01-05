@@ -59,7 +59,7 @@ webzContent({
 		{
 			//"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;The Organizer&nbsp;-</p>",
 			"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;Pins&nbsp;-</p>",
-			"url": "http://www.pinterest.com/teremterem/recalling-deviant-times/",
+			"url": "http://www.pinterest.com/teremterem/miscellaneous/",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
