@@ -3,9 +3,9 @@ webzContent({
 	//"pageTitle": ".: home :.",
 	"pageTitle": ".: New Tab :.",
 	"navLinks": [
-		{"url": "https://www.google.com/", "title": "Google"},
-		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
+		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
 		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
+		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
 	],
 
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
@@ -71,9 +71,6 @@ webzContent({
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Deviant</h3>",
 			"url": "http://www.deviantart.com/",
-		},{
-			"text": "<p style='width:100%;text-align:center'>Lingvo</p>",
-			"url": "http://www.lingvo.ua/ru",
 		},{
 			"text": "<p style='width:100%;text-align:center'>UX</p>",
 			"url": "https://www.youtube.com/results?lclk=year&search_query=ux+development&filters=year",
