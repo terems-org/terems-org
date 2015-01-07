@@ -68,9 +68,9 @@ webzContent({
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Deviant</h3>",
 			"url": "http://www.deviantart.com/",
-		},{
-			"text": "<p style='width:100%;text-align:center'>Lingvo</p>",
-			"url": "http://www.lingvo.ua/ru",
+		//},{
+		//	"text": "<p style='width:100%;text-align:center'>Lingvo</p>",
+		//	"url": "http://www.lingvo.ua/ru",
 		},{
 			"text": "<p style='width:100%;text-align:center'>UX</p>",
 			"url": "https://www.youtube.com/results?lclk=year&search_query=ux+development&filters=year",
