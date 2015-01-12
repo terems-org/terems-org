@@ -14,13 +14,13 @@ webzContent({
 		"WebZ Platform is going to be both a social network for UX developers and a GitHub-based web development platform. "+
 		"It's core is called <b>WebZ Engine</b>. WebZ Engine is written in Java and soon enough will become open-source. "+
 		"It will be both accessible for download as well as deployed in a form of a <b>free</b> online <b>WebZ App hosting</b>. "+
-		"WebZ Apps will be JS-based web applications which UX developers will host/serve directly from <b>GitHub</b>, "+
-		"this configuration resembles GitHub Pages (WebZ Engine also has adapters to other storages like Dropbox etc. "+
-		"as well as local file system).<br>"+
+		"WebZ Apps will be JS-based web applications which UX developers will host/serve directly from <b>GitHub</b> - "+
+		"pretty similar to what GitHub Pages allow us to do (WebZ Engine also has adapters for other storages like Dropbox etc. "+
+		"as well as for local file systems).<br>"+
 
 		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> will be one example of such WebZ Application. "+
 		"It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed "+
-		"as part of this suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of (it's source code "+
+		"as a part of WebZ suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of (it's source code "+
 		"will be available under MIT license).<br>"+
 
 		"One part of Todo will exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
@@ -32,8 +32,7 @@ webzContent({
 		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
 		"are originated (StackOverflow, YouTube etc).<br>"+
 
-		"Since nowadays agile is usually the best idea, the concept is being "+
-		"elaborated in more detailed manner while being developed...<br>",
+		"The concept is being continuously elaborated in more and more details...<br>",
 
 	"sections": [
 		{
