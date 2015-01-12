@@ -11,25 +11,36 @@ webzContent({
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
 	"articleHeading":
 
-		"For now let's say that WebZ Platform is going to be some sort of a Web Experience Development Suite...<br>"+
+		"WebZ Platform is going to be both a social network for UX developers and a GitHub-based web development platform. "+
+		"It's core is called <b>WebZ Engine</b>. WebZ Engine is written in Java and soon enough will become open-source. "+
+		"It will be both accessible for download as well as deployed in a form of a <b>free</b> online <b>WebZ App hosting</b>. "+
+		"WebZ Apps will be JS-based web applications which UX developers will host/serve directly from <b>GitHub</b> - "+
+		"pretty similar to what GitHub Pages allow us to do (WebZ Engine also has adapters for other storages like Dropbox etc. "+
+		"as well as for local file systems).<br>"+
 
-		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> is supposed to be an exemplary Offline Web App "+
-		"developed as part of this suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of.<br>"+
+		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> will be one example of such WebZ Application. "+
+		"It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed "+
+		"as a part of WebZ suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of (it's source code "+
+		"will be available under MIT license).<br>"+
 
-		"One part of Todo would exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
-		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app. Another part "+
-		"of it would be hosted at <b><a href='http://todo.terems.org/'>http://todo.terems.org</a></b> and having richer UI would expose "+
-		"more power to edit the content a user would pin/create in Todo.<br>"+
+		"One part of Todo will exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
+		"as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app.<br>"+
+		"Another part of it will be hosted at <b><a href='http://todo.terems.org/'>http://todo.terems.org</a></b> and, "+
+		"having richer UI, will expose more power to edit content pinned/created by users.<br>"+
 
-		"While doing a \"Research\" with Todo a user would be able to pin articles, make conclusions under pins, they would also "+
+		"While doing a \"Research\" with Todo a user will be able to pin articles, make conclusions under pins, they will also "+
 		"see a button-like list of \"source\" web-sites - web resources where the articles pinned to the current \"Research\" "+
-		"are originated (StackOverflow, YouTube etc). Down the road the concept will be elaborated in a more detailed manner...<br>"+
+		"are originated (StackOverflow, YouTube etc).<br>"+
 
-		"One more thing that should demonstrate one of the powers that WebZ Platform will have: Todo's css theme should be highly "+
-		"and at the same time easily customizable. Customizations should be allowed on per-user (or maybe \"per-project\") basis.",
+		"The concept is being continuously elaborated in more and more details...<br>",
 
 	"sections": [
 		{
+			
+			"title": "Minimum Viable Product...",
+			"titleUrl": "https://www.youtube.com/watch?v=jHyU54GhfGs",
+		},{
+			
 			"title": "PouchDB (Website)",
 			"titleUrl": "http://pouchdb.com/",
 		},{
@@ -41,6 +52,9 @@ webzContent({
 		},{
 			"title": "Instant Sprite...",
 			"titleUrl": "http://instantsprite.com/",
+		//},{
+		//	"title": "Паразит (FS)",
+		//	"titleUrl": "http://fs.to/video/cartoonserials/iM7kE790Vcthqa7QmPqJd6-parazit-uchenije-o-zhizni.html",
 		},
 	],
 	"dialogButtons": [
@@ -62,6 +76,9 @@ webzContent({
 		},{
 			"text": "<p style='width:100%;text-align:center'>UX</p>",
 			"url": "https://www.youtube.com/results?lclk=year&search_query=ux+development&filters=year",
+		//},{
+		//	"text": "<p style='width:100%;text-align:center'>FS.TO</p>",
+		//	"url": "http://fs.to/",
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
