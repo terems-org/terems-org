@@ -30,20 +30,11 @@ webzContent({
 
 	"sections": [
 		{
-			"title": "MongoDB vs CouchDB",
-			"titleUrl": "http://www.scottlogic.com/blog/2014/08/04/mongodb-vs-couchdb.html",
-		},{
 			"title": "PouchDB (Website)",
 			"titleUrl": "http://pouchdb.com/",
 		},{
-			"title": "Offline Apps with Angular and PouchDB",
-			"titleUrl": "http://www.mircozeiss.com/building-offline-applications-with-angularjs-and-pouchdb/",
-		},{
 			"title": "Durandal (Website)",
 			"titleUrl": "http://durandaljs.com/get-started.html#mount-rainier",
-		},{
-			"title": "Compose a Website...",
-			"titleUrl": "http://www.webdesign-inspiration.com/",
 		},{
 			"title": "Develop a Custom Web Impression...",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
@@ -56,7 +47,7 @@ webzContent({
 		{
 			//"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;The Organizer&nbsp;-</p>",
 			"text": "<h1 style='width:100%;text-align:center'>Todo</h1><p style='width:100%;text-align:center'>-&nbsp;Pins&nbsp;-</p>",
-			"url": "http://www.pinterest.com/teremterem/miscellaneous/",
+			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
