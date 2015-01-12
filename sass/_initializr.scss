@@ -92,10 +92,16 @@ body {
 //    border-top: $ui-dialog-border-top-transparent;
     background: $ui-dialog-background;
     background: $ui-dialog-background-transparent;
+    
+//    @include transition-property(background, transform);
+//    @include transition-duration(0.2s);
+//    @include transition-timing-function(ease-out);
 }
 .main a:hover aside {
     background: $ui-dialog-hover-background;
     background: $ui-dialog-hover-background-transparent;
+    
+//    @include transform(scale(1.02, 1.02));
 }
 .header-container, .footer-container, .main aside {
     -webkit-background-clip: padding-box; /* for Safari */

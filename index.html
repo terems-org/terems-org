@@ -10,16 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Pinterest -->
-        <meta name="p:domain_verify" content="e351fdb118f3b97019493462b2801fa3"/>
-
         <link rel="stylesheet" href="css/webz.css">
-        <link rel="stylesheet" href="lib/durandal/css/durandal.css" />
 
         <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body style="visibility:hidden">
-        <!--[if lt IE 9]>
+        <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
@@ -77,16 +73,14 @@
 	        </div>
 		</div>
 
-<!--
 <audio id="bkg-audio" loop>
     <source src="sounds/rainforest_ambience-GlorySunz-1938133500.mp3" type="audio/mpeg">
     <source src="sounds/rainforest_ambience-GlorySunz-1938133500.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
--->
 
 		<script src="lib/jquery-1.11.1.min.js"></script>
-        <!-- TODO: WTF ?! (or maybe it's just for the sake of being installed as a Chrome Extension)
+        <!-- This approach doesn't work for Chrome Extensions because of inline JS being disallowed in non-sandbox mode:
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="lib/jquery-1.11.1.min.js"><\/script>')</script>
         -->
@@ -95,16 +89,9 @@
 
 		<script src="js/webz-content-padding.js"></script>
 		<script src="webz-pedesis.js"></script>
-		<!--
-		<script src="js/main.js"></script>
-		-->
-		<!-- TODO do it as a chrome extension!
-		<script src="lib/require/require.js" data-main="app/main"></script>
-		-->
 
-		<!-- TODO: what to do with these ? -->
         <script src="js/plugins.js"></script>
-		<script src="js/obsolete-main.js"></script>
+		<script src="js/main.js"></script>
 
 		<script src="js/sounds.js"></script>
 
