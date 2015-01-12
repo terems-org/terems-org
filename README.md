@@ -1,9 +1,29 @@
 WebZ Platform v0.9 beta (Pedesis)
 ============
-For now let's just say that WebZ Platform is going to be some sort of a Web Experience Development Suite...
+WebZ Platform is going to be both a social network for UX developers and a GitHub-based web development platform.
+It's core is called WebZ Engine. WebZ Engine is written in Java and soon enough will become open-source.
+It will be both accessible for download as well as deployed in a form of a free online WebZ App hosting.
+WebZ Apps will be JS-based web applications which UX developers will host/serve directly from GitHub,
+this configuration resembles GitHub Pages (WebZ Engine also has adapters to other storages like Dropbox etc.
+as well as local file system).
 
-The idea behind the central page of the suite is to eventually become a fully-fledged Offline Web App which would be installed as an extension to Google Chrome in order to replace Chrome's default New Tab Page App and play a role of a la "Research" Bookmarking App. This app would allow for multiple "Researches" to be maintained per a registered user, each "Research" in a form of two columns: the first one would be a list of references to external articles and short summaries under those references (these summaries are to be put there by the user of the app to summarize why this particular article is mentioned in the current "Research" and which conclusions does it bring the researcher to) and the second one whould be a collection of button-like transparent panels mentioning what "source" websites (domain names, probably their brandings to be displayed as well) were used (in other words, which "sources" the links in the first column come from)...
+Todo (The Organizer) will be one example of such WebZ Application.
+It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed
+as part of this suite in order to demonstrate what WebZ Platform is and what it is capable of (it's source code
+will be available under MIT license).
+
+One part of Todo will exist in a form of an extension to Google Chrome (support of other browsers to be considered
+as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app.
+Another part of it will be hosted at http://todo.terems.org and,
+having richer UI, will expose more power to edit content pinned/created by users.
+
+While doing a "Research" with Todo a user will be able to pin articles, make conclusions under pins, they will also
+see a button-like list of "source" web-sites - web resources where the articles pinned to the current "Research"
+are originated (StackOverflow, YouTube etc).
+
+Since nowadays agile is usually the best idea, the concept is being
+elaborated in more detailed manner while being developed...
 
 ============
-<i><b>P.S.</b> The following was used as a starting point for the current design of the page:
+<i>P.S. The following was used as a starting point for the current design of the page:
 http://www.initializr.com/try</i>
