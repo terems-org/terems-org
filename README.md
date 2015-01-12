@@ -11,7 +11,6 @@ Another part of it will be hosted at http://todo.terems.org and, having richer U
 While doing a "Research" with Todo a user will be able to pin articles, make conclusions under pins, they will also see a button-like list of "source" web-sites - web resources where the articles pinned to the current "Research" are originated (StackOverflow, YouTube etc).
 
 The concept is being continuously elaborated in more and more details...
-
 ============
 <i>P.S. The following was used as a starting point for the current design of the page:
 http://www.initializr.com/try</i>
