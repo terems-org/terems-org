@@ -20,7 +20,7 @@ webzContent({
 
 		"<b><a href='http://todo.terems.org/'>Todo (The Organizer)</a></b> will be one example of such WebZ Application. "+
 		"It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed "+
-		"as a part of WebZ suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of (it's source code "+
+		"as a part of WebZ suite in order to demonstrate what <b>WebZ Platform</b> is and what it is capable of (Todo's source code "+
 		"will be available under MIT license).<br>"+
 
 		"One part of Todo will exist in a form of an extension to Google Chrome (support of other browsers to be considered "+
@@ -36,11 +36,12 @@ webzContent({
 
 	"sections": [
 		{
-			
+		//	"title": "My Obsolete Pages (Bootstrap-Based)...",
+		//	"titleUrl": "http://www.webz.bz/obsolete/obsolete/todo",
+		//},{
 			"title": "Minimum Viable Product...",
 			"titleUrl": "https://www.youtube.com/watch?v=jHyU54GhfGs",
 		},{
-			
 			"title": "PouchDB (Website)",
 			"titleUrl": "http://pouchdb.com/",
 		},{
