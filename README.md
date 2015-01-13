@@ -2,7 +2,7 @@ WebZ Platform v0.9 beta (Pedesis)
 ============
 WebZ Platform is going to be both a social network for UX developers and a GitHub-based web development platform. It's core is called WebZ Engine. WebZ Engine is written in Java and soon enough will become open-source. It will be both accessible for download as well as deployed in a form of a free online WebZ App hosting. WebZ Apps will be JS-based web applications which UX developers will host/serve directly from GitHub - pretty similar to what GitHub Pages allow us to do (WebZ Engine also has adapters for other storages like Dropbox etc. as well as for local file systems).
 
-Todo (The Organizer) will be one example of such WebZ Application. It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed as a part of WebZ suite in order to demonstrate what WebZ Platform is and what it is capable of (it's source code will be available under MIT license).
+Todo (The Organizer) will be one example of such WebZ Application. It is going to be our collaboration tool. Apart from that, it will also be an exemplary Offline Web App developed as a part of WebZ suite in order to demonstrate what WebZ Platform is and what it is capable of (Todo's source code will be available under MIT license).
 
 One part of Todo will exist in a form of an extension to Google Chrome (support of other browsers to be considered as well) in order to replace Chrome's default New Tab Page App and play a role of a bookmarking app.
 
