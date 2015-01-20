@@ -1,8 +1,8 @@
 webzContent({
 
-	//"pageTitle": ".: home :.",
+	"pageTitle": ".: home :.",
 	//"pageTitle": ".: New Tab :.",
-	"pageTitle": ".: WebZzzzZZZzzz :.",
+	//"pageTitle": ".: WebZzzzZZZzzz :.",
 	"navLinks": [
 		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
 		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
