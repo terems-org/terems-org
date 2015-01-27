@@ -2,10 +2,9 @@ webzContent({
 
 	"pageTitle": ".: home :.",
 	//"pageTitle": ".: New Tab :.",
-	//"pageTitle": ".: WebZzzzZZZzzz :.",
 	"navLinks": [
 		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
-		{"url": "https://github.com/teremterem/webz-pedesis", "title": "GitHub"},
+		{"url": "https://github.com/teremterem/webz-homepage", "title": "GitHub"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
 	],
 
