@@ -14,7 +14,7 @@ webzContent({
 		"WebZ Platform is going to be a Git-based web development and hosting platform. "+
 		"It's core is called <b>WebZ Engine</b>. WebZ Engine is written in Java and soon enough will become open-source. "+
 		"It will be both accessible for download as well as deployed in a form of a <b>free</b> online <b>WebZ App hosting</b>. "+
-		"WebZ Apps will be JS-based web applications which UX developers will host/serve directly from <b>GitHub</b> - "+
+		"WebZ Apps will be JS-based web applications which UX developers will host/serve directly from GitHub - "+
 		"pretty similar to what GitHub Pages allow us to do (WebZ Engine also has adapters for other storages like Dropbox etc. "+
 		"as well as for local file systems).<br>"+
 
