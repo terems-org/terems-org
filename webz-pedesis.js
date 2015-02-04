@@ -63,7 +63,7 @@ webzContent({
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
-			"url": "mailto:todo@terems.org",
+			"url": "mailto:info@terems.org",
 			//"url": "http://mail.terems.org/",
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>YouTube</h3>",
