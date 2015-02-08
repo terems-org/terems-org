@@ -1,7 +1,6 @@
 webzContent({
 
 	"pageTitle": ".: home :.",
-	//"pageTitle": ".: New Tab :.",
 	"navLinks": [
 		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
 		{"url": "https://github.com/terems-org/webz-home", "title": "GitHub"},
