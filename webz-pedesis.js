@@ -38,7 +38,7 @@ webzContent({
 	],
 	"dialogButtons": [
 		{
-			"text": "<h1 style='width:100%;text-align:center'>Register</h1><p style='width:100%;text-align:center'>-&nbsp;Comming Soon&nbsp;-</p>",
+			"text": "<h1 style='width:100%;text-align:center'>Register</h1><p style='width:100%;text-align:center'>-&nbsp;comming soon&nbsp;-</p>",
 			"url": "http://www.pinterest.com/teremterem/pedesis/",//-from-ancient-greek-a-leaping/",
 			//"class": "orange-todo-panel",
 		},{
