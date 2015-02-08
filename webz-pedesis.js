@@ -4,7 +4,7 @@ webzContent({
 	//"pageTitle": ".: New Tab :.",
 	"navLinks": [
 		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
-		{"url": "https://github.com/teremterem/webz-home", "title": "GitHub"},
+		{"url": "https://github.com/terems-org/webz-home", "title": "GitHub"},
 		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
 	],
 
