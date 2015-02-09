@@ -14,7 +14,7 @@ webzContent({
 		"is written in Java and soon enough will become open-source (this page is already being served by it).<br>"+
 		"Apart from being deployed as part of WebZ Platform, WebZ Server will also be accessible for download.<br>"+
 		"WebZ Apps are JS-based web applications which UX developers will soon be able to host/serve directly from GitHub - "+
-		"pretty similar to what GitHub Pages allow us to do (WebZ Server also has adapters for other storages like Dropbox etc. "+
+		"pretty similar to what GitHub Pages allow us to do (WebZ Server also can have adapters for other storages like Dropbox etc. "+
 		"as well as for the local file system).",
 
 	"sections": [
