@@ -19,8 +19,11 @@ webzContent({
 
 	"sections": [
 		{
-			"title": "Minimum Viable Product...",
-			"titleUrl": "https://www.youtube.com/watch?v=jHyU54GhfGs",
+			"title": "Markdown (Adam Pritchard)",
+			"titleUrl": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+		},{
+			"title": "Markdown (John Gruber)",
+			"titleUrl": "http://daringfireball.net/projects/markdown/syntax",
 		},{
 			"title": "PouchDB (Website)",
 			"titleUrl": "http://pouchdb.com/",
@@ -28,10 +31,13 @@ webzContent({
 			"title": "Durandal (Website)",
 			"titleUrl": "http://durandaljs.com/get-started.html#mount-rainier",
 		},{
-			"title": "This Is Responsive...",
+			"title": "Minimum Viable Product",
+			"titleUrl": "https://www.youtube.com/watch?v=jHyU54GhfGs",
+		},{
+			"title": "This Is Responsive",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
 		},{
-			"title": "Instant Sprite...",
+			"title": "Instant Sprite",
 			"titleUrl": "http://instantsprite.com/",
 		},
 	],
