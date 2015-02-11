@@ -1,7 +1,7 @@
 {
 	"name": "Terem's .org",
-	"description": "WebZ App",
-	"version": "0.9",// beta (Pedesis)
+	"description": "http://www.terems.org/",
+	"version": "0.9",
 	"manifest_version": 2,
 	"icons": {
 		"128": "images/128-temp-icon.png"
