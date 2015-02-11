@@ -6,5 +6,4 @@ WebZ Server is an [open source](https://github.com/terems-org/webz-server) serve
 that is designed to serve web pages from various sources.
 
 WebZ Apps are JS-based web applications which UX developers will soon be able to host/serve directly
-from GitHub - pretty similar to what GitHub Pages allow us to do (WebZ Server also can have adapters
-for other storages like Dropbox etc. as well as for the local file system).
+from GitHub - for now lets just say that it's something similar to what GitHub Pages allow us to do...
