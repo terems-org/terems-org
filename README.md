@@ -1,4 +1,4 @@
-# [WebZ Platform v0.9 beta](http://ww.webz.bz/) ([Pedesis](https://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/))
+# [WebZ Platform](http://ww.webz.bz/) v0.9 beta ([Pedesis](https://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/))
 
 WebZ Platform is going to be a Git-based web hosting platform. It's core is called WebZ Server. WebZ
 Server is written in Java and published as an [open source project](https://github.com/terems-org/webz-server).
