@@ -4,7 +4,7 @@ webzContent({
 	"navLinks": [
 		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
 		{"url": "https://github.com/terems-org/webz-home", "title": "GitHub"},
-		{"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html", "title": "Sass"},
+		{"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year", "title": "YouTube"},
 	],
 
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
@@ -25,14 +25,14 @@ webzContent({
 			"title": "Markdown (John Gruber)",
 			"titleUrl": "http://daringfireball.net/projects/markdown/syntax",
 		},{
+			"title": "Sass (Reference)",
+			"titleUrl": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html",
+		},{
 			"title": "PouchDB (Website)",
 			"titleUrl": "http://pouchdb.com/",
 		},{
 			"title": "Durandal (Website)",
 			"titleUrl": "http://durandaljs.com/get-started.html#mount-rainier",
-		},{
-			"title": "Minimum Viable Product",
-			"titleUrl": "https://www.youtube.com/watch?v=jHyU54GhfGs",
 		},{
 			"title": "This Is Responsive",
 			"titleUrl": "http://bradfrost.github.io/this-is-responsive/",
@@ -52,10 +52,6 @@ webzContent({
 		},{
 			"text": "<h3 style='width:100%;text-align:center'>Deviant</h3>",
 			"url": "http://www.deviantart.com/",
-		},{
-			"text": "<p style='width:100%;text-align:center'>YouTube</p>",
-			//"url": "https://www.youtube.com/results?lclk=year&search_query=ux+development&filters=year",
-			"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year",
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
