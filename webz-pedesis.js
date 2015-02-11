@@ -25,13 +25,13 @@ webzContent({
 			"title": "Markdown (John Gruber)",
 			"titleUrl": "http://daringfireball.net/projects/markdown/syntax",
 		},{
-			"title": "Sass (Reference)",
+			"title": "Sass (reference)",
 			"titleUrl": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html",
 		},{
-			"title": "PouchDB (Website)",
+			"title": "PouchDB (website)",
 			"titleUrl": "http://pouchdb.com/",
 		},{
-			"title": "Durandal (Website)",
+			"title": "Durandal (website)",
 			"titleUrl": "http://durandaljs.com/get-started.html#mount-rainier",
 		},{
 			"title": "This Is Responsive",
