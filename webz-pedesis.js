@@ -50,9 +50,12 @@ webzContent({
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
 			"url": "mailto:info@terems.org",
 		},{
-			"text": "<h2 style='width:100%;text-align:center'>Pinterest</h2>",
+			"text": "<h2 style='width:100%;text-align:center'><i>Pinterest</i></h2>",
 			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
-		},
+		},{
+			"text": "<p style='width:100%;text-align:center'><i><b>Deviant</b></i></p>",
+			"url": "http://www.deviantart.com/",
+		}
 	],
 	"footerLinkText": "2015 © Terem's .org",
 	"footerLinkUrl": "http://www.terems.org/",
