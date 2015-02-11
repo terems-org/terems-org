@@ -2,7 +2,7 @@ webzContent({
 
 	"pageTitle": ".: home :.",
 	"navLinks": [
-		{"url": "http://www.lingvo.ua/ru", "title": "Lingvo"},
+		{"url": "", "title": "Login"},
 		{"url": "https://github.com/terems-org/webz-home", "title": "GitHub"},
 		{"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year", "title": "YouTube"},
 	],
@@ -55,6 +55,9 @@ webzContent({
 		},{
 			"text": "<p style='width:100%;text-align:center'><i><b>Deviant</b></i></p>",
 			"url": "http://www.deviantart.com/",
+		},{
+			"text": "<p style='width:100%;text-align:center'><i>Issues</i></p>",
+			"url": "https://github.com/terems-org/webz-server/issues",
 		}
 	],
 	"footerLinkText": "2015 © Terem's .org",
