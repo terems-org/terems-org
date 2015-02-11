@@ -2,8 +2,8 @@ webzContent({
 
 	"pageTitle": ".: home :.",
 	"navLinks": [
-		{"url": "", "title": "Login"},
-		{"url": "https://github.com/terems-org/webz-home", "title": "GitHub"},
+		{"url": "http://ww.webz.bz/", "title": "Login"},
+		{"url": "https://github.com/terems-org", "title": "GitHub"},
 		{"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year", "title": "YouTube"},
 	],
 
@@ -44,7 +44,7 @@ webzContent({
 	"dialogButtons": [
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Register</h1><p style='width:100%;text-align:center'>-&nbsp;comming soon&nbsp;-</p>",
-			"url": "",
+			"url": "http://ww.webz.bz/",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
