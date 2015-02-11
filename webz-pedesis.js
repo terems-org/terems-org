@@ -53,6 +53,6 @@ webzContent({
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
-	"footerLinkUrl": "http://terems.org/",
+	"footerLinkUrl": "http://www.terems.org/",
 
 });
