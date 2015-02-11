@@ -44,14 +44,14 @@ webzContent({
 	"dialogButtons": [
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Register</h1><p style='width:100%;text-align:center'>-&nbsp;comming soon&nbsp;-</p>",
-			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
+			"url": "",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
 			"url": "mailto:info@terems.org",
 		},{
-			"text": "<p style='width:100%;text-align:center'>Deviant</p>",
-			"url": "http://www.deviantart.com/",
+			"text": "<h2 style='width:100%;text-align:center'>Pinterest</h2>",
+			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
 		},
 	],
 	"footerLinkText": "2015 © Terem's .org",
