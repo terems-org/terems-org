@@ -4,7 +4,7 @@ webzContent({
 	"navLinks": [
 		{"url": "http://ww.webz.bz/", "title": "Login"},
 		{"url": "https://github.com/terems-org", "title": "GitHub"},
-		{"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year", "title": "YouTube"},
+		{"url": "https://github.com/orgs/terems-org/people", "title": "We"},
 	],
 
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",

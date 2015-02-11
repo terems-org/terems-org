@@ -6,6 +6,7 @@
 			content["pageTitle"] = ".: New Tab :.";
 			
 			content["navLinks"][0] = {"url": "http://www.lingvo.ua/ru", "title": "Lingvo"};
+			content["navLinks"][2] = {"url": "https://www.youtube.com/results?search_query=web+design&filters=year&lclk=year", "title": "YouTube"};
 			
 			var dialogButtons = content["dialogButtons"];
 			dialogButtons[0] = {
