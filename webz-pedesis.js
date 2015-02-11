@@ -10,12 +10,12 @@ webzContent({
 	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
 	"articleHeading":
 
-		"WebZ Platform is going to be a Git-based web hosting platform. It's core is called <b>WebZ Server</b>. WebZ Server "+
-		"is written in Java and soon enough will become open-source (this page is already being served by it).<br>"+
-		"Apart from being deployed as part of WebZ Platform, WebZ Server will also be accessible for download.<br>"+
-		"WebZ Apps are JS-based web applications which UX developers will soon be able to host/serve directly from GitHub - "+
-		"pretty similar to what GitHub Pages allow us to do (WebZ Server also can have adapters for other storages like Dropbox etc. "+
-		"as well as for the local file system).",
+		"WebZ Platform is going to be a Git-based web hosting platform. It's core is called <b>WebZ Server</b>. "+
+		"(The page you are looking at right now is already being served to you by WebZ Platform \"directy\" from a "+
+		"<a href=\"https://github.com/terems-org/terems.org\">GitHub repo</a>).<br>"+
+		"WebZ Server is an <a href=\"https://github.com/terems-org/webz-server\"><b>open source</b></a> web server written "+
+		"in Java that is designed to serve web pages from various sources. Soon enough it will also natively support "+
+		"markdown...",
 
 	"sections": [
 		{
