@@ -11,7 +11,7 @@ webzContent({
 	"articleHeading":
 
 		"WebZ Platform as a whole is going to be a Git-based web hosting platform. It's core is called "+
-		"<a href=\"https://github.com/terems-org/webz-server\"><b>WebZ Server</b></a>. "+
+		"<a href=\"https://github.com/terems-org/webz-server#webz-server-v09-beta-pedesis\"><b>WebZ Server</b></a>. "+
 		"(The page you are looking at right now is already being served to you by WebZ Platform \"directy\" from a "+
 		"<a href=\"https://github.com/terems-org/terems.org\">GitHub repo</a>).<br>"+
 		"WebZ Server is an <b>open source</b> project available under "+
