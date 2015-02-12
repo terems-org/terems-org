@@ -7,7 +7,7 @@ webzContent({
 		{"url": "https://github.com/orgs/terems-org/people", "title": "Crew"},
 	],
 
-	"articleTitle": "WebZ Server v0.9 beta (<a href=\"https://github.com/terems-org/webz-server#webz-server-v09-beta-pedesis\">Pedesis</a>)",
+	"articleTitle": "WebZ Server v0.9 beta (Pedesis)",
 	"articleHeading":
 
 		"WebZ Platform as a whole is going to be a Git-based web hosting platform. It's core is called "+
@@ -17,7 +17,7 @@ webzContent({
 		"WebZ Server is an <b>open source</b> project available under "+
 		"<a href=\"http://www.gnu.org/licenses/agpl-3.0.html\"><b>GNU Affero GPL v3.0</b></a> - namely it's a web server.<br>"+
 		"It is written in Java and is designed to serve web pages from various local and remote file sources. "+
-		"It's <b>full API</b> (namely <a href=\"https://github.com/terems-org/webz-api\"><b>WebZ API</b></a>) "+
+		"It's full API (namely <a href=\"https://github.com/terems-org/webz-api\"><b>WebZ API</b></a>) "+
 		"is available under <a href=\"http://www.apache.org/licenses/LICENSE-2.0.html\"><b>Apache License v2.0</b></a>.<br>"+
 		"Soon enough WebZ Server will also natively support markdown...",
 
