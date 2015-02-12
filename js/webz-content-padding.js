@@ -19,6 +19,9 @@
 					},{
 						"title": "Licensing (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/licensing/",
+					},{
+						"title": "Local Artifactory",
+						"titleUrl": "http://localhost:8081/",
 					});
 			
 			var dialogButtons = content["dialogButtons"];
