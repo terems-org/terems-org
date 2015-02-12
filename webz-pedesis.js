@@ -14,9 +14,12 @@ webzContent({
 		"<a href=\"https://github.com/terems-org/webz-server\"><b>WebZ Server</b></a>. "+
 		"(The page you are looking at right now is already being served to you by WebZ Platform \"directy\" from a "+
 		"<a href=\"https://github.com/terems-org/terems.org\">GitHub repo</a>).<br>"+
-		"WebZ Server is an <b>open source</b> project available under <a href=\"http://www.gnu.org/licenses/agpl-3.0.html\"><b>GNU Affero GPL v3.0</b></a>, namely web server written "+
-		"in Java that is designed to serve web pages from various sources. Soon enough it will also natively support "+
-		"markdown...",
+		"WebZ Server is an <b>open source</b> project available under "+
+		"<a href=\"http://www.gnu.org/licenses/agpl-3.0.html\"><b>GNU Affero GPL v3.0</b></a>, namely web server written "+
+		"in Java that is designed to serve web pages from various sources.<br>"+
+		"<b>It's full API</b> (namely <a href=\"https://github.com/terems-org/webz-api\"><b>WebZ API</b></a>) "+
+		"is available under <a href=\"http://www.apache.org/licenses/LICENSE-2.0.html\"><b>Apache License v2.0</b></a>."+
+		"Soon enough it will also natively support markdown...",
 
 	"sections": [
 		{
