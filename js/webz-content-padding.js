@@ -9,6 +9,10 @@
 			content["navLinks"][2] = {"url": "https://github.com/terems-org/webz-server/issues/2", "title": "Todo"};
 			
 			var sections = content["sections"];
+			sections.splice(0, 0, {
+						"title": "Pull WebZ From Origin...",
+						"titleUrl": "https://www.pinterest.com/pin/409475791095970527/",
+					});
 			sections.pop();
 			sections.push({
 						"title": "Miscellaneous (pins)",
