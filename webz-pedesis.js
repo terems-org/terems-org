@@ -7,10 +7,10 @@ webzContent({
 		{"url": "https://github.com/orgs/terems-org/people", "title": "Crew"},
 	],
 
-	"articleTitle": "WebZ Platform v0.9 beta (Pedesis)",
+	"articleTitle": "WebZ <a href=\"https://github.com/terems-org/webz-server\">Server</a> v0.9 beta (Pedesis)",
 	"articleHeading":
 
-		"WebZ Platform is going to be a Git-based web hosting platform. It's core is called <b>WebZ Server</b>. "+
+		"WebZ Platform as a whole is going to be a Git-based web hosting platform. It's core is called <b>WebZ Server</b>. "+
 		"(The page you are looking at right now is already being served to you by WebZ Platform \"directy\" from a "+
 		"<a href=\"https://github.com/terems-org/terems.org\">GitHub repo</a>).<br>"+
 		"WebZ Server is an <a href=\"https://github.com/terems-org/webz-server\"><b>open source</b></a> web server written "+
