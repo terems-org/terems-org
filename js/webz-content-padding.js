@@ -6,7 +6,7 @@
 			content["pageTitle"] = ".: New Tab :.";
 			
 			content["navLinks"][0] = {"url": "http://www.lingvo.ua/ru", "title": "Lingvo"};
-			content["navLinks"][2] = {"url": "https://github.com/teremterem/webz-platform/issues/3", "title": "Todo"};
+			content["navLinks"][2] = {"url": "https://github.com/terems-org/webz-server/issues/2", "title": "Todo"};
 			
 			var sections = content["sections"];
 			sections.pop();
