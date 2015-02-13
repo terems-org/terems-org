@@ -6,7 +6,7 @@
 			content["pageTitle"] = ".: New Tab :.";
 			
 			content["navLinks"][0] = {"url": "http://www.lingvo.ua/ru", "title": "Lingvo"};
-			content["navLinks"][2] = {"url": "https://github.com/terems-org/webz-server/issues/2", "title": "Todo"};
+			content["navLinks"][2] = {"url": "https://github.com/terems-org/webz-server/issues/4", "title": "Todo"};
 			
 			var sections = content["sections"];
 			sections.splice(0, 0, {
