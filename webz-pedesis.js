@@ -58,7 +58,7 @@ webzContent({
 			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
 		},{
 			"text": "<p style='width:100%;text-align:center'><i><b>Issues</b></i></p>",
-			"url": "https://github.com/terems-org/webz-server/issues",
+			"url": "https://github.com/terems-org/webz-server/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc",
 		},{
 			"text": "<p style='width:100%;text-align:center'><i>Twitter</i></p>",
 			"url": "https://twitter.com/terems_org",

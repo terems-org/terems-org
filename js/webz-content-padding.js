@@ -31,7 +31,7 @@
 			var dialogButtons = content["dialogButtons"];
 			dialogButtons[0] = {
 				"text": "<h1 style='width:100%;text-align:center'>Platform</h1><p style='width:100%;text-align:center'>-&nbsp;Internal Issues&nbsp;-</p>",
-				"url": "https://github.com/teremterem/webz-platform/issues",
+				"url": "https://github.com/teremterem/webz-platform/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc",
 			};
 			dialogButtons[1]["url"] = "http://mail.terems.org/";
 		}
