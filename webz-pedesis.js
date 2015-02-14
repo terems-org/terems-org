@@ -10,9 +10,9 @@ webzContent({
 	"articleTitle": "WebZ Server v0.9 beta (Pedesis)",
 	"articleHeading":
 
-		"As a whole, WebZ Platform is going to be a Git-based web hosting platform. It's core is called "+
+		"As a whole, WebZ Platform is a Git-based web hosting platform. It's core is called "+
 		"<a href=\"https://github.com/terems-org/webz-server#webz-server-v09-beta-pedesis\"><b>WebZ Server</b></a>. "+
-		"(The page you are looking at right now is already being served to you by WebZ Platform \"directy\" from a "+
+		"(The page you are looking at right now is being served to you by WebZ Platform \"directy\" from a "+
 		"<a href=\"https://github.com/terems-org/www.terems.org#webz-server-v09-beta-pedesis\">GitHub repo</a>).<br>"+
 		"WebZ Server is an <b>open source</b> project available under "+
 		"<a href=\"http://www.gnu.org/licenses/agpl-3.0.html\"><b>GNU Affero GPL v3.0</b></a> - it is a web server.<br>"+
