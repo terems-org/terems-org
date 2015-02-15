@@ -15,14 +15,8 @@
 					});
 			sections.pop();
 			sections.push({
-						"title": "Miscellaneous (pins)",
-						"titleUrl": "https://www.pinterest.com/teremterem/miscellaneous/",
-					},{
 						"title": "Internal (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/internal/",
-					},{
-						"title": "Licensing (pins)",
-						"titleUrl": "https://www.pinterest.com/teremterem/licensing/",
 					},{
 						"title": "Local Artifactory",
 						"titleUrl": "http://localhost:8081/",
