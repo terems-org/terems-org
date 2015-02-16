@@ -10,7 +10,10 @@
 			
 			var sections = content["sections"];
 			sections.splice(0, 0, {
-						"title": "Pull WebZ From Origin...",
+						"title": "http://localhost/",
+						"titleUrl": "http://localhost/",
+					},{
+						"title": "pull WebZ from origin",
 						"titleUrl": "https://www.pinterest.com/pin/409475791095970527/",
 					});
 			sections.pop();
@@ -18,7 +21,7 @@
 						"title": "Internal (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/internal/",
 					},{
-						"title": "Local Artifactory",
+						"title": "local Artifactory",
 						"titleUrl": "http://localhost:8081/",
 					});
 			
