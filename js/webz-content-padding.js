@@ -5,7 +5,7 @@
 			
 			content["pageTitle"] = ".: New Tab :.";
 			
-			content["navLinks"][0] = {"url": "http://www.lingvo.ua/ru", "title": "Lingvo"};
+			content["navLinks"][0] = {"url": "https://www.youtube.com/", "title": "YouTube"};
 			content["navLinks"][2] = {"url": "https://github.com/teremterem/webz-platform/issues/1", "title": "Todo"};
 			
 			var sections = content["sections"];
@@ -28,6 +28,11 @@
 				"url": "https://github.com/teremterem/webz-platform/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc",
 			};
 			dialogButtons[1]["url"] = "http://mail.terems.org/";
+			dialogButtons.pop();
+			dialogButtons.push({
+						"text": "<p style='width:100%;text-align:center'><i>Lingvo</i></p>",
+						"url": "http://www.lingvo.ua/ru",
+					});
 		}
 		
 		window.rivetsContext = {webz: content};
