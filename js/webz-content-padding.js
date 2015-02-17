@@ -20,9 +20,6 @@
 			sections.pop();
 			sections.pop();
 			sections.push({
-						"title": "Apache Maven - Sonatype",
-						"titleUrl": "http://central.sonatype.org/pages/apache-maven.html",
-					},{
 						"title": "Miscellaneous (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/miscellaneous/",
 					},{
