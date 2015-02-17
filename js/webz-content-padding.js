@@ -18,7 +18,11 @@
 					});
 			sections.pop();
 			sections.pop();
+			sections.pop();
 			sections.push({
+						"title": "Deployment - OSSRH Guide",
+						"titleUrl": "http://central.sonatype.org/pages/ossrh-guide.html#deployment",
+					},{
 						"title": "Miscellaneous (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/miscellaneous/",
 					},{
@@ -37,8 +41,10 @@
 			dialogButtons[1]["url"] = "http://mail.terems.org/";
 			dialogButtons.pop();
 			dialogButtons.push({
-						"text": "<p style='width:100%;text-align:center'><i>Lingvo</i></p>",
-						"url": "http://www.lingvo.ua/ru",
+						"text": "<p style='width:100%;text-align:center'><i>Sass</i></p>",
+						"url": "http://sass-lang.com/documentation/file.SASS_REFERENCE.html",
+						//"text": "<p style='width:100%;text-align:center'><i>Lingvo</i></p>",
+						//"url": "http://www.lingvo.ua/ru",
 					});
 		}
 		
