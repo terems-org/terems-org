@@ -17,7 +17,11 @@
 						"titleUrl": "https://www.pinterest.com/pin/409475791095970527/",
 					});
 			sections.pop();
+			sections.pop();
 			sections.push({
+						"title": "Miscellaneous (pins)",
+						"titleUrl": "https://www.pinterest.com/teremterem/miscellaneous/",
+					},{
 						"title": "Internal (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/internal/",
 					},{
