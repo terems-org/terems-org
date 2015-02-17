@@ -17,7 +17,7 @@ webzContent({
 		"WebZ Server is an <b>open source</b> project available under "+
 		"<a href=\"http://www.gnu.org/licenses/agpl-3.0.html\"><b>GNU Affero GPL v3.0</b></a> - it is a web server.<br>"+
 		"It's written in Java and is designed to serve web pages from various local and remote file sources. "+
-		"It's complete API (<a href=\"https://github.com/terems-org/webz-api\"><b>WebZ API</b></a>) "+
+		"It's complete API (<a href=\"https://github.com/terems-org/webz-api#webz-api-v09-beta-pedesis\"><b>WebZ API</b></a>) "+
 		"is available under <a href=\"http://www.apache.org/licenses/LICENSE-2.0.html\"><b>Apache License v2.0</b></a>.<br>"+
 		"Soon enough WebZ Server will also natively support markdown.",
 
