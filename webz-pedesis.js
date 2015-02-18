@@ -23,9 +23,6 @@ webzContent({
 
 	"sections": [
 		{
-			"title": "Apache Maven - Sonatype",
-			"titleUrl": "http://central.sonatype.org/pages/apache-maven.html",
-		},{
 			"title": "Markdown (Adam Pritchard)",
 			"titleUrl": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
 		},{
