@@ -6,7 +6,7 @@
 			content["pageTitle"] = ".: New Tab :.";
 			
 			content["navLinks"][0] = {"url": "https://www.youtube.com/", "title": "YouTube"};
-			content["navLinks"][2] = {"url": "https://github.com/terems-org/webz-server/issues/6", "title": "Todo"};
+			content["navLinks"][2] = {"url": "https://github.com/teremterem/webz-platform/issues/1", "title": "Todo"};
 			
 			var sections = content["sections"];
 			sections.splice(0, 0, {
@@ -17,12 +17,16 @@
 						"titleUrl": "https://www.pinterest.com/pin/409475791095970527/",
 					},{
 						"title": "Apache Maven - Sonatype",
-						"titleUrl": "http://central.sonatype.org/pages/apache-maven.html",
+						"titleUrl": "http://central.sonatype.org/pages/apache-maven.html#gpg-signed-components",
 					});
 			sections.pop();
 			sections.pop();
 			sections.pop();
+			sections.pop();
 			sections.push({
+						"title": "\"org.terems\" Snapshots",
+						"titleUrl": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/",
+					},{
 						"title": "Miscellaneous (pins)",
 						"titleUrl": "https://www.pinterest.com/teremterem/miscellaneous/",
 					},{
