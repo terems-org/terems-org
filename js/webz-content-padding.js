@@ -10,9 +10,6 @@
 			
 			var sections = content["sections"];
 			sections.splice(0, 0, {
-						"title": "http://localhost:8887/",
-						"titleUrl": "http://localhost:8887/",
-					},{
 						"title": "pull WebZ from origin",
 						"titleUrl": "https://www.pinterest.com/pin/409475791095970527/",
 					},{
