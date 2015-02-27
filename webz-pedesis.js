@@ -55,7 +55,7 @@ webzContent({
 			"url": "mailto:info@terems.org",
 		},{
 			"text": "<h2 style='width:100%;text-align:center'><i>Pinterest</i></h2>",
-			"url": "http://www.pinterest.com/teremterem/pedesis-from-ancient-greek-a-leaping/",
+			"url": "https://www.pinterest.com/terems_org/pedesis-from-ancient-greek-a-leaping/",
 		},{
 			"text": "<p style='width:100%;text-align:center'><i><b>Issues</b></i></p>",
 			"url": "https://github.com/terems-org/webz-server/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc",
