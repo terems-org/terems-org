@@ -21,6 +21,9 @@
 			sections.pop();
 			sections.pop();
 			sections.push({
+						"title": "Sonatype OSS",
+						"titleUrl": "https://oss.sonatype.org",
+					},{
 						"title": "\"org.terems\" Snapshots",
 						"titleUrl": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/",
 					},{
