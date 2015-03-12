@@ -25,7 +25,13 @@
 			<div class="webz-header-main-container">
 		        <div class="header-container">
 		            <header class="wrapper clearfix">
-		                <h1 class="title"><a style="color:white" href="{{WEBZ-PARENT.FULL-URI}}">&lt; {{WEBZ-PARENT.FULL-URI}} &gt;</a> {{WEBZ-FILE.NAME}}</h1>
+		                <h1 class="title">
+							<a style="color:white" href="{{WEBZ-ROOT.FULL-URI}}">home</a> >
+							{{#WEBZ-BREADCRUMBS}}
+								<a style="color:white" href="{{FULL-URI}}">{{NAME}}</a> >
+							{{/WEBZ-BREADCRUMBS}}
+							{{WEBZ-FILE.NAME}}
+						</h1>
 		                <nav>
 		                    <ul>
 		                        <li rv-each-webznavlink="ctx.webz.navLinks">
@@ -44,11 +50,9 @@
 		                        {{{MAIN-CONTENT}}}
 		                    </header>
 							<section>
-								{{^WEBZ-CHILDREN}}
-									{{#WEBZ-SIBLINGS}}
-										<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
-									{{/WEBZ-SIBLINGS}}
-								{{/WEBZ-CHILDREN}}
+								{{#WEBZ-SIBLINGS}}
+									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
+								{{/WEBZ-SIBLINGS}}
 								{{#WEBZ-CHILDREN}}
 									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
 								{{/WEBZ-CHILDREN}}
