@@ -25,7 +25,7 @@
 			<div class="webz-header-main-container">
 		        <div class="header-container">
 		            <header class="wrapper clearfix">
-		                <h1 class="title">{ctx.webz.pageTitle}</h1>
+		                <h1 class="title"><a style="color:white" href="{{WEBZ-PARENT.FULL-URI}}">&lt;home&gt;{{WEBZ-PARENT.FULL-URI}}</a> {{WEBZ-FILE.NAME}}</h1>
 		                <nav>
 		                    <ul>
 		                        <li rv-each-webznavlink="ctx.webz.navLinks">
@@ -43,14 +43,11 @@
 		                    <header>
 		                        {{{MAIN-CONTENT}}}
 		                    </header>
-		                    <section rv-each-webzsection="ctx.webz.sections">
-		                    	<!-- TODO:
-		                        <h2"><a rv-href="webzsection.titleUrl">{webzsection.title}</a></h2>
-		                        <p>{webzsection.text}</p>
-		                       	-->
-		                        <p style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold"><a rv-href="webzsection.titleUrl">{webzsection.title}</a></p>
-		                        <p style="margin-top:0;padding-top:0">{webzsection.text}</p>
-		                    </section>
+							<section>
+								{{#WEBZ-SIBLINGS}}
+									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-URI}}">{{NAME}}</a><br>
+								{{/WEBZ-SIBLINGS}}
+							</section>
 		                </article>
 
 						<div class="dialogs-container">
