@@ -44,9 +44,14 @@
 		                        {{{MAIN-CONTENT}}}
 		                    </header>
 							<section>
-								{{#WEBZ-SIBLINGS}}
-									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-URI}}">{{NAME}}</a><br>
-								{{/WEBZ-SIBLINGS}}
+								{{^WEBZ-CHILDREN}}
+									{{#WEBZ-SIBLINGS}}
+										<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
+									{{/WEBZ-SIBLINGS}}
+								{{/WEBZ-CHILDREN}}
+								{{#WEBZ-CHILDREN}}
+									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
+								{{/WEBZ-CHILDREN}}
 							</section>
 		                </article>
 
