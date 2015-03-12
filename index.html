@@ -11,6 +11,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/webz.css">
+		<style>
+			.breadcrumb {
+				color: lightgray;
+			}
+			.breadcrumb:hover {
+				color: white;
+			}
+			.breadcrumb-gray {
+				color: lightgray;
+			}
+			.breadcrumb-gray:hover {
+				color: white;
+			}
+			.breadcrumb-lightgray {
+				color: lightgray;
+			}
+			.breadcrumb-lightgray:hover {
+				color: lightgray;
+			}
+		</style>
 
         <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -26,11 +46,11 @@
 		        <div class="header-container">
 		            <header class="wrapper clearfix">
 		                <h1 class="title">
-							<a style="color:white" href="{{WEBZ-ROOT.FULL-URI}}">home</a> >
+							<a class="breadcrumb" href="{{WEBZ-ROOT.FULL-URI}}">home</a><span class="breadcrumb-gray"> ></span>
 							{{#WEBZ-BREADCRUMBS}}
-								<a style="color:white" href="{{FULL-URI}}">{{NAME}}</a> >
+								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb-gray"> ></span>
 							{{/WEBZ-BREADCRUMBS}}
-							{{WEBZ-FILE.NAME}}
+							<span class="breadcrumb-lightgray">{{WEBZ-FILE.NAME}}</span>
 						</h1>
 		                <nav>
 		                    <ul>
