@@ -18,18 +18,6 @@
 			.breadcrumb:hover {
 				color: white;
 			}
-			.breadcrumb-gray {
-				color: lightgray;
-			}
-			.breadcrumb-gray:hover {
-				color: white;
-			}
-			.breadcrumb-lightgray {
-				color: lightgray;
-			}
-			.breadcrumb-lightgray:hover {
-				color: lightgray;
-			}
 		</style>
 
         <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -46,11 +34,11 @@
 		        <div class="header-container">
 		            <header class="wrapper clearfix">
 		                <h1 class="title">
-							<a class="breadcrumb" href="{{WEBZ-ROOT.FULL-URI}}">home</a><span class="breadcrumb-gray"> ></span>
+							<a class="breadcrumb" href="{{WEBZ-ROOT.FULL-URI}}">home</a><span class="breadcrumb"> ></span>
 							{{#WEBZ-BREADCRUMBS}}
-								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb-gray"> ></span>
+								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb"> ></span>
 							{{/WEBZ-BREADCRUMBS}}
-							<span class="breadcrumb-lightgray">{{WEBZ-FILE.NAME}}</span>
+							<span class="breadcrumb">{{WEBZ-FILE.NAME}}</span>
 						</h1>
 		                <nav>
 		                    <ul>
