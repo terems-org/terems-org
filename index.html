@@ -18,6 +18,10 @@
 			.breadcrumb:hover {
 				color: white;
 			}
+			.folder-index {
+				padding-left: 3.2rem;
+				font-weight: bold;
+			}
 		</style>
 
         <script src="lib/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -54,14 +58,29 @@
 		            <div class="main wrapper clearfix">
 
 		                <article>
-		                    <header>
-		                        {{{MAIN-CONTENT}}}
-		                    </header>
-							<section>
-								{{#WEBZ-FOLDER-INDEX}}
-									<a style="margin-bottom:0;padding-bottom:0;padding-left:1.2rem;font-weight:bold" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a><br>
-								{{/WEBZ-FOLDER-INDEX}}
-							</section>
+							<header>
+								{{{MAIN-CONTENT}}}
+							</header>
+							{{#WEBZ-FOLDER-INDEX.SUBFOLDERS}}
+								<section>
+									<p>WebZ Site sub-folders:</p>
+									<ul class="folder-index">
+										{{#ALL}}
+											<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+										{{/ALL}}
+									</ul>
+								</section>
+							{{/WEBZ-FOLDER-INDEX.SUBFOLDERS}}
+							{{#WEBZ-FOLDER-INDEX.SUBFILES}}
+								<section>
+									<p>Rendering SPA sub-files:</p>
+									<ul class="folder-index">
+										{{#ALL}}
+											<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+										{{/ALL}}
+									</ul>
+								</section>
+							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
 		                </article>
 
 						<div class="dialogs-container">
