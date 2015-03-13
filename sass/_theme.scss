@@ -4,7 +4,8 @@ $body-font: 1.6rem/2.6rem Helvetica, Helvetica Neue, Arial;
 
 
 $ui-bg-color: #505428;
-$ui-text-color: white;
+$ui-text-color: lightgray;
+$ui-text-hover-color: white;
 
 $webz-container-bg-color: white;
 
@@ -43,7 +44,7 @@ $link-hover-color: darken(brown, 19%);
 }
 
 $footer-link-color: $ui-text-color;
-$footer-link-hover-color: $footer-link-color;
+$footer-link-hover-color: $ui-text-hover-color;
 $footer-text-color: $ui-text-color;
 $footer-padding: 0.8rem 0 0.5rem;
 
@@ -63,7 +64,7 @@ $nav-link-bg-color: $ui-bg-color;
 $nav-link-color: $ui-text-color;
 
 $nav-link-hover-bg-color: $nav-link-bg-color;
-$nav-link-hover-color: $nav-link-color;
+$nav-link-hover-color: $ui-text-hover-color;
 
 $nav-link-hover-text-decoration: $nav-link-text-decoration;
 @mixin nav-link-visited-color() {
@@ -94,7 +95,7 @@ $article-title-font-size: 2em; // TODO fix too small line-height problem !!!
 
 $article-text-shadow: 0.1rem 0.1rem 0.1rem rgba($ui-bg-color, 0.2);
 
-$dialog-text-color: $ui-text-color;
+$dialog-text-color: $ui-text-hover-color;
 $dialog-padding: 1rem 5%;
 
 

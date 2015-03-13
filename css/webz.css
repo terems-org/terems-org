@@ -666,12 +666,12 @@ body {
 
 /* line 111, ../sass/_initializr.scss */
 .title {
-  color: white;
+  color: lightgray;
 }
 
 /* line 115, ../sass/_initializr.scss */
 .footer-container a {
-  color: white;
+  color: lightgray;
 }
 
 /* line 118, ../sass/_initializr.scss */
@@ -696,7 +696,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: lightgray;
   background: #505428;
   background: rgba(80, 84, 40, 0.5);
 }
@@ -746,7 +746,7 @@ nav a:hover {
 
 /* line 183, ../sass/_initializr.scss */
 .footer-container footer {
-  color: white;
+  color: lightgray;
   padding: 0.8rem 0 0.5rem;
 }
 
