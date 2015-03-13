@@ -6,6 +6,7 @@ webzContent({
 		{"url": "https://github.com/orgs/terems-org/people", "title": "Crew"},
 	],
 
+	/*
 	"sections": [
 		{
 			"title": "Markdown (Adam Pritchard)",
@@ -30,23 +31,30 @@ webzContent({
 			"titleUrl": "http://instantsprite.com/",
 		},
 	],
+	*/
 	"dialogButtons": [
 		{
-			"text": "<h1 style='width:100%;text-align:center'>Register</h1><p style='width:100%;text-align:center'>-&nbsp;comming soon&nbsp;-</p>",
-			"url": "http://ww.webz.bz/",
+			"text": "<h1 style='width:100%;text-align:center'>Hosting</h1><p style='width:100%;text-align:center'>-&nbsp;cooming soon&nbsp;-</p>",
+			"url": "http://todo-poc-terems-org.appspot.com/",
+			"target": "_blank",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Mail</h1><p style='width:100%;text-align:center'>-&nbsp;Terem's .org&nbsp;-</p>",
 			"url": "mailto:info@terems.org",
+			"target": "_blank",
 		},{
 			"text": "<h2 style='width:100%;text-align:center'><i>Pinterest</i></h2>",
 			"url": "https://www.pinterest.com/terems_org/pedesis-from-ancient-greek-a-leaping/",
+			"rel": "nofollow",
+			"target": "_blank",
 		},{
 			"text": "<p style='width:100%;text-align:center'><i><b>Issues</b></i></p>",
-			"url": "https://github.com/terems-org/webz-server/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc",
+			"url": "https://github.com/terems-org/webz-server/issues",
 		},{
 			"text": "<p style='width:100%;text-align:center'><i>Twitter</i></p>",
 			"url": "https://twitter.com/terems_org",
+			"rel": "nofollow",
+			"target": "_blank",
 		}
 	],
 	"footerLinkText": "2015 © Terem's .org",
