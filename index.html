@@ -81,6 +81,26 @@
 									</ul>
 								</section>
 							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
+							{{#WEBZ-FOLDER-INDEX.SUBFOLDERS}}
+								<section>
+									<p>Rendering SPA sub-folders:</p>
+									<ul class="folder-index">
+										{{#spa}}
+											<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+										{{/spa}}
+									</ul>
+								</section>
+							{{/WEBZ-FOLDER-INDEX.SUBFOLDERS}}
+							{{#WEBZ-FOLDER-INDEX.SUBFILES}}
+								<section>
+									<p>Rendering SPA sub-files:</p>
+									<ul class="folder-index">
+										{{#spa}}
+											<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+										{{/spa}}
+									</ul>
+								</section>
+							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
 		                </article>
 
 						<div class="dialogs-container">
