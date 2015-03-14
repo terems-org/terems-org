@@ -40,7 +40,7 @@
 		                <h1 class="title">
 							<a class="breadcrumb" href="{{WEBZ-ROOT.FULL-URI}}">$</a>
 							{{#WEBZ-BREADCRUMBS}}
-								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb"> ></span>
+								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb"> /</span>
 							{{/WEBZ-BREADCRUMBS}}
 							<span class="breadcrumb">{{WEBZ-FILE.NAME}}</span>
 						</h1>
@@ -63,21 +63,21 @@
 							</header>
 							{{#WEBZ-FOLDER-INDEX.SUBFOLDERS}}
 								<section>
-									<p>WebZ Site sub-folders:</p>
+									<p>WebZ site sub-folders:</p>
 									<ul class="folder-index">
-										{{#ALL}}
+										{{#site}}
 											<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/ALL}}
+										{{/site}}
 									</ul>
 								</section>
 							{{/WEBZ-FOLDER-INDEX.SUBFOLDERS}}
 							{{#WEBZ-FOLDER-INDEX.SUBFILES}}
 								<section>
-									<p>Rendering SPA sub-files:</p>
+									<p>WebZ site sub-files:</p>
 									<ul class="folder-index">
-										{{#ALL}}
+										{{#site}}
 											<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/ALL}}
+										{{/site}}
 									</ul>
 								</section>
 							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
