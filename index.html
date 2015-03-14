@@ -65,8 +65,9 @@
 							{{/MAIN-CONTENT}}
 							{{#WEBZ-FOLDER-INDEX}}
 
-								{{#MAIN-CONTENT}}<hr>{{/MAIN-CONTENT}}
-
+								{{#IS-NOT-EMPTY.ALL.site}}
+									<hr>
+								{{/IS-NOT-EMPTY.ALL.site}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.site}}
 									<section>
 										<p>WebZ site sub-folders:</p>
@@ -87,6 +88,10 @@
 										</ul>
 									</section>
 								{{/IS-NOT-EMPTY.SUBFILES.site}}
+
+								{{#IS-NOT-EMPTY.ALL.spa}}
+									<hr>
+								{{/IS-NOT-EMPTY.ALL.spa}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.spa}}
 									<section>
 										<p>Rendering SPA sub-folders:</p>

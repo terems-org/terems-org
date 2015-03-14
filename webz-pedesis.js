@@ -3,7 +3,7 @@ webzContent({
 	"navLinks": [
 		{"url": "http://ww.webz.bz/", "title": "WebZ"},
 		{"url": "https://github.com/terems-org", "title": "GitHub", "target": "_blank"},
-		{"url": "mailto:info@terems.org", "title": "Feedback", "target": "_blank"},
+		{"url": "mailto:info@terems.org", "title": "Mail", "target": "_blank"},
 	],
 
 	"dialogButtons": [
