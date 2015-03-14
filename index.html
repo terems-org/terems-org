@@ -72,7 +72,7 @@
 								{{/IS-NOT-EMPTY.ALL.site}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.site}}
 									<section>
-										<p>WebZ site sub-folders:</p>
+										<p><b>WebZ site sub-folders:</b></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.site}}
 												<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
@@ -82,7 +82,7 @@
 								{{/IS-NOT-EMPTY.SUBFOLDERS.site}}
 								{{#IS-NOT-EMPTY.SUBFILES.site}}
 									<section>
-										<p>WebZ site sub-files:</p>
+										<p><b>WebZ site sub-files:</b></p>
 										<ul class="folder-index">
 											{{#SUBFILES.site}}
 												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
@@ -103,20 +103,20 @@
 								{{/IS-NOT-EMPTY.ALL.spa}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.spa}}
 									<section>
-										<p>Rendering SPA sub-folders:</p>
+										<p><i>Rendering SPA sub-folders:</i></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.spa}}
-												<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+												<li><i>{{FULL-RELATIVE-URI}}**</i></li>
 											{{/SUBFOLDERS.spa}}
 										</ul>
 									</section>
 								{{/IS-NOT-EMPTY.SUBFOLDERS.spa}}
 								{{#IS-NOT-EMPTY.SUBFILES.spa}}
 									<section>
-										<p>Rendering SPA sub-files:</p>
+										<p><i>Rendering SPA sub-files:</i></p>
 										<ul class="folder-index">
 											{{#SUBFILES.spa}}
-												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}"><i>{{FULL-RELATIVE-URI}}</i></a></li>
 											{{/SUBFILES.spa}}
 										</ul>
 									</section>
