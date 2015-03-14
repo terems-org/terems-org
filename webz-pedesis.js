@@ -1,9 +1,9 @@
 webzContent({
 
 	"navLinks": [
-		{"url": "http://ww.webz.bz/", "title": "Login"},
+		{"url": "http://ww.webz.bz/", "title": "WebZ"},
 		{"url": "https://github.com/terems-org", "title": "GitHub"},
-		{"url": "https://github.com/orgs/terems-org/people", "title": "Crew"},
+		{"url": "https://github.com/orgs/terems-org/people", "title": "People"},
 	],
 
 	/*
