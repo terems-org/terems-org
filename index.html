@@ -58,50 +58,56 @@
 		            <div class="main wrapper clearfix">
 
 		                <article>
-							<header>
-								{{{MAIN-CONTENT}}}
-							</header>
-							{{#WEBZ-FOLDER-INDEX.SUBFOLDERS}}
-								<section>
-									<p>WebZ site sub-folders:</p>
-									<ul class="folder-index">
-										{{#site}}
-											<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/site}}
-									</ul>
-								</section>
-							{{/WEBZ-FOLDER-INDEX.SUBFOLDERS}}
-							{{#WEBZ-FOLDER-INDEX.SUBFILES}}
-								<section>
-									<p>WebZ site sub-files:</p>
-									<ul class="folder-index">
-										{{#site}}
-											<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/site}}
-									</ul>
-								</section>
-							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
-							{{#WEBZ-FOLDER-INDEX.SUBFOLDERS}}
-								<section>
-									<p>Rendering SPA sub-folders:</p>
-									<ul class="folder-index">
-										{{#spa}}
-											<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/spa}}
-									</ul>
-								</section>
-							{{/WEBZ-FOLDER-INDEX.SUBFOLDERS}}
-							{{#WEBZ-FOLDER-INDEX.SUBFILES}}
-								<section>
-									<p>Rendering SPA sub-files:</p>
-									<ul class="folder-index">
-										{{#spa}}
-											<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
-										{{/spa}}
-									</ul>
-								</section>
-							{{/WEBZ-FOLDER-INDEX.SUBFILES}}
-		                </article>
+							{{#MAIN-CONTENT}}
+								<header>
+									{{{MAIN-CONTENT}}}
+								</header>
+							{{/MAIN-CONTENT}}
+							{{#WEBZ-FOLDER-INDEX}}
+
+								{{#IS-NOT-EMPTY.SUBFOLDERS.site}}
+									<section>
+										<p>WebZ site sub-folders:</p>
+										<ul class="folder-index">
+											{{#SUBFOLDERS.site}}
+												<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+											{{/SUBFOLDERS.site}}
+										</ul>
+									</section>
+								{{/IS-NOT-EMPTY.SUBFOLDERS.site}}
+								{{#IS-NOT-EMPTY.SUBFILES.site}}
+									<section>
+										<p>WebZ site sub-files:</p>
+										<ul class="folder-index">
+											{{#SUBFILES.site}}
+												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+											{{/SUBFILES.site}}
+										</ul>
+									</section>
+								{{/IS-NOT-EMPTY.SUBFILES.site}}
+								{{#IS-NOT-EMPTY.SUBFOLDERS.spa}}
+									<section>
+										<p>Rendering SPA sub-folders:</p>
+										<ul class="folder-index">
+											{{#SUBFOLDERS.spa}}
+												<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+											{{/SUBFOLDERS.spa}}
+										</ul>
+									</section>
+								{{/IS-NOT-EMPTY.SUBFOLDERS.spa}}
+								{{#IS-NOT-EMPTY.SUBFILES.spa}}
+									<section>
+										<p>Rendering SPA sub-files:</p>
+										<ul class="folder-index">
+											{{#SUBFILES.spa}}
+												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+											{{/SUBFILES.spa}}
+										</ul>
+									</section>
+								{{/IS-NOT-EMPTY.SUBFILES.spa}}
+
+							{{/WEBZ-FOLDER-INDEX}}
+						</article>
 
 						<div class="dialogs-container">
 			                <a class="dialog-wrapper" rv-each-webzdialog="ctx.webz.dialogButtons" rv-href="webzdialog.url" rv-rel="webzdialog.rel" rv-target="webzdialog.target">
