@@ -66,7 +66,9 @@
 							{{#WEBZ-FOLDER-INDEX}}
 
 								{{#IS-NOT-EMPTY.ALL.site}}
-									<hr>
+									{{#MAIN-CONTENT}}
+										<hr>
+									{{/MAIN-CONTENT}}
 								{{/IS-NOT-EMPTY.ALL.site}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.site}}
 									<section>
@@ -90,7 +92,14 @@
 								{{/IS-NOT-EMPTY.SUBFILES.site}}
 
 								{{#IS-NOT-EMPTY.ALL.spa}}
-									<hr>
+									{{#MAIN-CONTENT}}
+										<hr>
+									{{/MAIN-CONTENT}}
+									{{^MAIN-CONTENT}}
+										{{#IS-NOT-EMPTY.ALL.site}}
+											<hr>
+										{{/IS-NOT-EMPTY.ALL.site}}
+									{{/MAIN-CONTENT}}
 								{{/IS-NOT-EMPTY.ALL.spa}}
 								{{#IS-NOT-EMPTY.SUBFOLDERS.spa}}
 									<section>
