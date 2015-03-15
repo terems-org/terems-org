@@ -39,9 +39,12 @@
 		            <header class="wrapper clearfix">
 		                <h1 class="title">
 							<a class="breadcrumb" href="{{WEBZ-ROOT.FULL-URI}}">$</a>
-							{{#WEBZ-BREADCRUMBS}}
+							{{#WEBZ-BREADCRUMBS.REVERSE-INDEX.1}}
+								<a class="breadcrumb" href="{{FULL-URI}}">..</a><span class="breadcrumb"> /</span>
+							{{/WEBZ-BREADCRUMBS.REVERSE-INDEX.1}}
+							{{#WEBZ-BREADCRUMBS.REVERSE-INDEX.0}}
 								<a class="breadcrumb" href="{{FULL-URI}}">{{NAME}}</a><span class="breadcrumb"> /</span>
-							{{/WEBZ-BREADCRUMBS}}
+							{{/WEBZ-BREADCRUMBS.REVERSE-INDEX.0}}
 							<span class="breadcrumb">{{WEBZ-FILE.NAME}}</span>
 						</h1>
 		                <nav>
@@ -63,7 +66,8 @@
 									{{{MAIN-CONTENT}}}
 								</header>
 							{{/MAIN-CONTENT}}
-							{{#WEBZ-FOLDER-INDEX}}
+
+							{{#WEBZ-FOLDER}}
 
 								{{#IS-NOT-EMPTY.ALL.site}}
 									{{#MAIN-CONTENT}}
@@ -122,7 +126,7 @@
 									</section>
 								{{/IS-NOT-EMPTY.SUBFILES.spa}}
 
-							{{/WEBZ-FOLDER-INDEX}}
+							{{/WEBZ-FOLDER}}
 						</article>
 
 						<div class="dialogs-container">
