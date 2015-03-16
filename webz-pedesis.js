@@ -12,7 +12,7 @@ webzContent({
 			"url": "http://ww.webz.bz/",
 			//"class": "orange-todo-panel",
 		},{
-			"text": "<h1 style='width:100%;text-align:center'>PaaS</h1><p style='width:100%;text-align:center'>-&nbsp;cooming soon&nbsp;-</p>",
+			"text": "<h1 style='width:100%;text-align:center'>PaaS</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
 			"url": "http://todo-poc-terems-org.appspot.com/",
 			"target": "_blank",
 		},{

@@ -70,16 +70,15 @@
 							{{#WEBZ-FOLDER}}
 
 								{{#IS-NOT-EMPTY.ALL.site}}
-									{{#MAIN-CONTENT}}
-										<hr>
-									{{/MAIN-CONTENT}}
+									{{#MAIN-CONTENT}}<hr>{{/MAIN-CONTENT}}
 								{{/IS-NOT-EMPTY.ALL.site}}
+
 								{{#IS-NOT-EMPTY.SUBFOLDERS.site}}
 									<section>
 										<p><b>WebZ site sub-folders:</b></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.site}}
-												<li><a href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+												<li><a href="{{FULL-URI}}">{{NAME}}/</a></li>
 											{{/SUBFOLDERS.site}}
 										</ul>
 									</section>
@@ -89,38 +88,35 @@
 										<p><b>WebZ site sub-files:</b></p>
 										<ul class="folder-index">
 											{{#SUBFILES.site}}
-												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}">{{FULL-RELATIVE-URI}}</a></li>
+												<li><a {{^IS-MARKDOWN}}target="_blank" {{/IS-MARKDOWN}}href="{{FULL-URI}}{{^IS-MARKDOWN}}?github=sitefile{{/IS-MARKDOWN}}">{{NAME}}</a></li>
 											{{/SUBFILES.site}}
 										</ul>
 									</section>
 								{{/IS-NOT-EMPTY.SUBFILES.site}}
 
 								{{#IS-NOT-EMPTY.ALL.spa}}
-									{{#MAIN-CONTENT}}
-										<hr>
-									{{/MAIN-CONTENT}}
+									{{#MAIN-CONTENT}}<hr>{{/MAIN-CONTENT}}
 									{{^MAIN-CONTENT}}
-										{{#IS-NOT-EMPTY.ALL.site}}
-											<hr>
-										{{/IS-NOT-EMPTY.ALL.site}}
+										{{#IS-NOT-EMPTY.ALL.site}}<hr>{{/IS-NOT-EMPTY.ALL.site}}
 									{{/MAIN-CONTENT}}
 								{{/IS-NOT-EMPTY.ALL.spa}}
+
 								{{#IS-NOT-EMPTY.SUBFOLDERS.spa}}
 									<section>
-										<p><i>Rendering SPA sub-folders:</i></p>
+										<p><i><b>Rendering SPA sub-folders:</b></i></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.spa}}
-												<li><i>{{FULL-RELATIVE-URI}}**</i></li>
+												<li><a target="_blank" href="{{FULL-URI}}?github=spafolder"><i>{{NAME}}/**</i></a></li>
 											{{/SUBFOLDERS.spa}}
 										</ul>
 									</section>
 								{{/IS-NOT-EMPTY.SUBFOLDERS.spa}}
 								{{#IS-NOT-EMPTY.SUBFILES.spa}}
 									<section>
-										<p><i>Rendering SPA sub-files:</i></p>
+										<p><i><b>Rendering SPA sub-files:</b></i></p>
 										<ul class="folder-index">
 											{{#SUBFILES.spa}}
-												<li><a target="_blank" href="{{FULL-RELATIVE-URI}}"><i>{{FULL-RELATIVE-URI}}</i></a></li>
+												<li><a target="_blank" href="{{FULL-URI}}?github=spafile"><i>{{NAME}}</i></a></li>
 											{{/SUBFILES.spa}}
 										</ul>
 									</section>
