@@ -1,2 +1,2 @@
 
-# WebZ blog rendering SPA - green theme
+# a WebZ blog rendering SPA
