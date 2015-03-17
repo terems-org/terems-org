@@ -12,7 +12,7 @@ webzContent({
 	"dialogButtons": [
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Server.jar</h1><p style='width:100%;text-align:center'>-&nbsp;runnable&nbsp;-</p>",
-			"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-server-packager/0.9.1-SNAPSHOT/webz-server-packager-0.9.1-20150316.232935-4.jar",
+			"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-server-packager/0.9.1-SNAPSHOT/webz-server-packager-0.9.1-20150317.152957-5.jar",
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Hosting</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
