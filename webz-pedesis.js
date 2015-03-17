@@ -1,7 +1,7 @@
 webzContent({
 
 	"navLinks": [
-		{"url": "https://github.com/terems-org",
+		{"url": "https://github.com/terems-org/webz-server",
 			"title": "GitHub", "target": "_blank"},
 		{"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150316.232945-4.war",
 			"title": ".war"},
