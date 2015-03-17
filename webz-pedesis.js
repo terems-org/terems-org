@@ -1,18 +1,21 @@
 webzContent({
 
 	"navLinks": [
-		{"url": "http://ww.webz.bz/", "title": "WebZ"},
-		{"url": "https://github.com/terems-org", "title": "GitHub", "target": "_blank"},
-		{"url": "mailto:info@terems.org", "title": "Email", "target": "_blank"},
+		{"url": "https://github.com/terems-org",
+			"title": "GitHub", "target": "_blank"},
+		{"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150316.232945-4.war",
+			"title": ".war"},
+		{"url": "mailto:info@terems.org",
+			"title": "mail us", "target": "_blank"},
 	],
 
 	"dialogButtons": [
 		{
-			"text": "<h1 style='width:100%;text-align:center'>WebZ</h1><p style='width:100%;text-align:center'>-&nbsp;downloads&nbsp;-</p>",
-			"url": "http://ww.webz.bz/",
+			"text": "<h1 style='width:100%;text-align:center'>Server.jar</h1><p style='width:100%;text-align:center'>-&nbsp;runnable&nbsp;-</p>",
+			"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-server-packager/0.9.1-SNAPSHOT/webz-server-packager-0.9.1-20150316.232935-4.jar",
 			//"class": "orange-todo-panel",
 		},{
-			"text": "<h1 style='width:100%;text-align:center'>PaaS</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
+			"text": "<h1 style='width:100%;text-align:center'>Hosting</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
 			"url": "http://todo-poc-terems-org.appspot.com/",
 			"target": "_blank",
 		},{
