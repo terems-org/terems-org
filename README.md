@@ -1,4 +1,4 @@
 
 # a WebZ blog rendering SPA
 
-A green HTML5 theme which is used to render different Terem's .org blogs.
+A green HTML5 theme which is currently used to render Terem's .org blogs.
