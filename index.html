@@ -78,7 +78,7 @@
 										<p><b>WebZ site sub-folders:</b></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.site}}
-												<li><a href="{{FULL-URI}}">{{NAME}}/</a></li>
+												<li><a href="{{FULL-URI}}">{{#PARENT-PATH-MEMBERS}}{{.}}/{{/PARENT-PATH-MEMBERS}}{{NAME}}/</a></li>
 											{{/SUBFOLDERS.site}}
 										</ul>
 									</section>
@@ -90,7 +90,9 @@
 											{{#SUBFILES.site}}
 <li>
 	<a {{^EXT-IS.md}}target="_blank"{{/EXT-IS.md}}
-		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=sitefile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}">{{NAME}}</a>
+		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=sitefile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}">
+			{{#PARENT-PATH-MEMBERS}}{{.}}/{{/PARENT-PATH-MEMBERS}}{{NAME}}
+	</a>
 </li>
 											{{/SUBFILES.site}}
 										</ul>
@@ -109,7 +111,7 @@
 										<p><i><b>Rendering SPA sub-folders:</b></i></p>
 										<ul class="folder-index">
 											{{#SUBFOLDERS.spa}}
-												<li><a target="_blank" href="{{FULL-URI}}?github=spafolder"><i>{{NAME}}/**</i></a></li>
+												<li><a target="_blank" href="{{FULL-URI}}?github=spafolder"><i>{{#PARENT-PATH-MEMBERS}}{{.}}/{{/PARENT-PATH-MEMBERS}}{{NAME}}/**</i></a></li>
 											{{/SUBFOLDERS.spa}}
 										</ul>
 									</section>
@@ -121,7 +123,9 @@
 											{{#SUBFILES.spa}}
 <li>
 	<a {{^EXT-IS.md}}target="_blank"{{/EXT-IS.md}}
-		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=spafile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}"><i>{{NAME}}</i></a>
+		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=spafile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}">
+			<i>{{#PARENT-PATH-MEMBERS}}{{.}}/{{/PARENT-PATH-MEMBERS}}{{NAME}}</i>
+	</a>
 </li>
 											{{/SUBFILES.spa}}
 										</ul>
