@@ -10,4 +10,5 @@
 
 A green HTML5 theme which is currently used as a "skin" for [Terem's .org](http://www.terems.org/) website.
 
-*If speaking strictly it is not a Single Page Application just yet - the page gets reloaded upon navigation. Anyways, this will be fixed pretty soon...*
+*If speaking strictly it is not a Single Page Application just yet - the page gets reloaded upon navigation.*  
+*Anyways, this will be fixed pretty soon...*
