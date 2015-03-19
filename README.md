@@ -8,6 +8,6 @@
 которое ты сам же себе и выбираешь...
 ```
 
-A green HTML5 theme which is currently used as a "skin" for (Terem's .org)[http://www.terems.org/] website.
+A green HTML5 theme which is currently used as a "skin" for [Terem's .org](http://www.terems.org/) website.
 
 *Strictly speaking it is not a Single Page Application yet because the page gets reloaded upon navigation - however this will be fixed soon...*
