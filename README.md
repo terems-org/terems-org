@@ -9,3 +9,5 @@
 ```
 
 A green HTML5 theme which is currently used as a "skin" for Terem's .org website.
+
+*Strictly speaking it is not a Single Page Application yet because the page gets reloaded upon navigation - however this will be fixed soon.*
