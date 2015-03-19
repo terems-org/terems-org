@@ -10,4 +10,4 @@
 
 A green HTML5 theme which is currently used as a "skin" for [Terem's .org](http://www.terems.org/) website.
 
-**Strictly speaking it is not a Single Page Application just yet since the page gets reloaded upon navigation - however this will be fixed pretty soon...**
+*Strictly speaking it is not a Single Page Application just yet since the page gets reloaded upon navigation - however this will be fixed pretty soon...*
