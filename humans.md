@@ -1,4 +1,4 @@
-# [coming soon...](humans.txt)
+# [humans.txt](humans.txt)
 
 ```
 музыка - это вибрации,
