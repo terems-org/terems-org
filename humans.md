@@ -1,6 +1,6 @@
 # Downloads
 
-[Comming soon...](humans.txt)
+## [Comming soon...](humans.txt)
 
 ----
 
