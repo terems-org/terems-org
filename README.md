@@ -4,7 +4,7 @@
 ```
 музыка - это вибрации вселенной,  
 которые проявляются в те самые моменты,  
-когда кому-нибуть удаётся приостановить время...
+когда кому-нибуть удаётся немного притормозить время...
 ```
 
 A green HTML5 theme which is currently used to render pages of [Terem's .org](http://www.terems.org/) website.
