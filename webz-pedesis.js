@@ -4,7 +4,7 @@ webzContent({
 		{"url": "https://github.com/terems-org/webz-server",
 			"title": "GitHub", "target": "_blank"},
 		{
-			"url": "webz-war.md",
+			"url": "/webz-war.md",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150319.204737-1.war",
 			"title": ".war"
 		},
@@ -15,7 +15,7 @@ webzContent({
 	"dialogButtons": [
 		{
 			"text": "<h1 style='width:100%;text-align:center'>Server.jar</h1><p style='width:100%;text-align:center'>-&nbsp;runnable&nbsp;-</p>",
-			"url": "server-jar.md",
+			"url": "/server-jar.md",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-server-packager/0.9.1-SNAPSHOT/webz-server-packager-0.9.1-20150319.204812-1.jar",
 			//"class": "orange-todo-panel",
 		},{
