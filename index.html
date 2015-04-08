@@ -89,7 +89,7 @@
 										<ul class="folder-index">
 											{{#SUBFILES.site}}
 <li>
-	<a {{^EXT-IS.md}}target="_blank"{{/EXT-IS.md}}
+	<a
 		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=sitefile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}">
 			{{#PARENT-PATH-MEMBERS}}{{.}} / {{/PARENT-PATH-MEMBERS}}{{NAME}}
 	</a>
@@ -122,7 +122,7 @@
 										<ul class="folder-index">
 											{{#SUBFILES.spa}}
 <li>
-	<a {{^EXT-IS.md}}target="_blank"{{/EXT-IS.md}}
+	<a
 		href="{{FULL-URI}}{{^EXT-IS.md}}{{^EXT-IS.txt}}{{^EXT-IS.json}}{{^EXT-IS.jar}}?github=spafile{{/EXT-IS.jar}}{{/EXT-IS.json}}{{/EXT-IS.txt}}{{/EXT-IS.md}}">
 			<i>{{#PARENT-PATH-MEMBERS}}{{.}} / {{/PARENT-PATH-MEMBERS}}{{NAME}}</i>
 	</a>
