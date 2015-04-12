@@ -1,15 +1,19 @@
 webzContent({
 
 	"navLinks": [
-		{"url": "https://github.com/terems-org/webz-server",
-			"title": "GitHub", "target": "_blank"},
+		{
+			"url": "https://github.com/terems-org/webz-server",
+			"title": "GitHub",
+		},
 		{
 			"url": "/webz-war.md",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150319.204737-1.war",
-			"title": ".war"
+			"title": ".war",
 		},
-		{"url": "mailto:info@terems.org",
-			"title": "email", "target": "_blank"},
+		{
+			"url": "mailto:info@terems.org",
+			"title": "email", "target": "_blank",
+		},
 	],
 
 	"dialogButtons": [
