@@ -1,7 +1,19 @@
 
-var webzTemplateAdapter = function(contentTemplate, pageScope) {
+var indexTemplate = null;
 
-	var template = Handlebars.compile(contentTemplate);
-	return template(pageScope);
+var webzInit = function(webzFiles) {
+	indexTemplate = Handlebars.compile(webzFiles.getFile("index.html").getFileDownloader().getContentAsStringAndClose());
+};
 
+var webzPreparePageContext = function(webzContext) {
+	var currentFile = webzContext.getCurrentFile();
+	return {
+		"WEBZ-ROOT": {"FULL-URI": webzContext.resolveUri(webzContext.getFile("/"))},
+		"WEBZ-FILE": {"NAME": currentFile.getMetadata().getName()},
+		"MAIN-CONTENT": marked(currentFile.getFileDownloader().getContentAsStringAndClose())
+	};
+};
+
+var webzRenderPage = function(pageContext) {
+	return indexTemplate(pageContext);
 };
