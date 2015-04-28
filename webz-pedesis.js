@@ -14,7 +14,7 @@ webzContent({
 		},
 		{
 			"url": "mailto:info@terems.org",
-			"title": "email", "target": "_blank",
+			"title": "Email", "target": "_blank",
 		},
 	],
 
