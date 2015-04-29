@@ -6,13 +6,15 @@ webzContent({
 			"title": "GitHub",
 		},
 		{
-			"url": "/webz-war.md",
+			"url": "http://www.maqota.org/",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150319.204737-1.war",
-			"title": ".war",
+			"title": "Projects",
+			//"url": "/webz-war.md",
+			//"title": ".war",
 		},
 		{
 			"url": "mailto:info@terems.org",
-			"title": "email", "target": "_blank",
+			"title": "Email", "target": "_blank",
 		},
 	],
 
