@@ -26,7 +26,7 @@ webzContent({
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Hosting</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
-			"url": "http://todo-poc-terems-org.appspot.com/",
+			"url": "http://ww.webz.bz/",
 			"target": "_blank",
 		},{
 			"text": "<h2 style='width:100%;text-align:center'>Twitter<h2>",
