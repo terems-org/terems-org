@@ -8,7 +8,7 @@ webzContent({
 		{
 			"url": "http://www.maqota.org/",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150319.204737-1.war",
-			"title": "Projects",
+			"title": "Projects", "target": "_blank",
 			//"url": "/webz-war.md",
 			//"title": ".war",
 		},
@@ -26,7 +26,7 @@ webzContent({
 			//"class": "orange-todo-panel",
 		},{
 			"text": "<h1 style='width:100%;text-align:center'>Hosting</h1><p style='width:100%;text-align:center'>-&nbsp;coming soon&nbsp;-</p>",
-			"url": "http://todo-poc-terems-org.appspot.com/",
+			"url": "http://ww.webz.bz/",
 			"target": "_blank",
 		},{
 			"text": "<h2 style='width:100%;text-align:center'>Twitter<h2>",
