@@ -8,7 +8,7 @@ webzContent({
 		{
 			"url": "http://www.maqota.org/",
 			//"url": "https://oss.sonatype.org/content/repositories/snapshots/org/terems/webz-war/0.9.1-SNAPSHOT/webz-war-0.9.1-20150319.204737-1.war",
-			"title": "Projects",
+			"title": "Projects", "target": "_blank",
 			//"url": "/webz-war.md",
 			//"title": ".war",
 		},
