@@ -3,7 +3,7 @@ var indexTemplate = null;
 
 var webzInit = function(webzFiles) {
 	indexTemplate = Handlebars.compile(webzFiles.getFile("/index.html").getFileDownloader().getContentAsStringAndClose());
-	// indexTemplate({}); // for some reason this does some kind of template initialization (which otherwise happens upon first pageload)
+	indexTemplate({}); // for some reason this does some kind of template initialization (which otherwise happens upon first pageload)
 };
 
 var webzPreparePageContext = function(webzContext, fullUrl) {
