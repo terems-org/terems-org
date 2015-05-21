@@ -2,7 +2,7 @@
 var indexTemplate = null;
 
 var webzInit = function(webzFiles) {
-	indexTemplate = Handlebars.compile(webzFiles.getFile("/index.html").getFileDownloader().getContentAsStringAndClose());
+	indexTemplate = Handlebars.compile(webzFiles.getFile("/index.html").getFileContentAsString());
 	indexTemplate({}); // for some reason this does some kind of template initialization (which otherwise happens upon first pageload)
 };
 
@@ -11,7 +11,7 @@ var webzPreparePageContext = function(webzContext, fullUrl) {
 	return {
 		"WEBZ-ROOT": {"FULL-URI": webzContext.resolveUri(webzContext.getFile("/"))},
 		"WEBZ-FILE": {"NAME": currentFile.getMetadata().getName()},
-		"MAIN-CONTENT": currentFile.getFileDownloader().getContentAsStringAndClose()
+		"MAIN-CONTENT": currentFile.getFileContentAsString()
 	};
 };
 
