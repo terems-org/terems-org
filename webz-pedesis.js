@@ -23,13 +23,13 @@ webzContent({
 			"text": "<h1 style='width:100%;text-align:center'>WebZ.war</h1><p style='width:100%;text-align:center'>-&nbsp;deployable&nbsp;-</p>",
 			"url": "/webz-war.md",
 		},{
-			"text": "<h3 style='width:100%;text-align:center'>Getting Started<h3>",
+			"text": "<h2 style='width:100%;text-align:center'>README<h2>",
 			"url": "/README.md",
 		},{
-			"text": "<h3 style='width:100%;text-align:center'>License</h3>",
+			"text": "<h3 style='width:100%;text-align:center'>LICENSE</h3>",
 			"url": "/LICENSE.md",
 		},{
-			"text": "<h3 style='width:100%;text-align:center'>3rd party</h3>",
+			"text": "<p style='width:100%;text-align:center'>3rd party</p>",
 			"url": "/LICENSE-3RD-PARTY.md",
 		}
 	],
